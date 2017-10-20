@@ -8,7 +8,7 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="img/favicon.png">
 
-    <title>CUV|Register</title>
+    <title>CUV|RegistrationSuccessful</title>
 
     <!-- Bootstrap CSS -->    
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,33 +49,12 @@
       </header>
       <!--header end-->
 
-      <form class="login-form" action="index.html">        
-        <div class="login-wrap">
-            <p class="login-img"><i class="icon_lock_alt"></i></p>
-
-            <div class="input-group">
-              <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <input type="text" class="form-control" placeholder="First Name" autofocus>
-            </div>
-
-            <div class="input-group">
-              <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <input type="text" class="form-control" placeholder="Last Name" autofocus>
-            </div>
-
-            <div class="input-group">
-              <span class="input-group-addon"><i class="icon_profile"></i></span>
-
-              <i class="fa fa-id-card" aria-hidden="true"></i>
-              <input type="text" class="form-control" placeholder="NIC Number" autofocus>
-            </div>
-
-            <div class="input-group">
-                <span class="input-group-addon"><i class="icon_key_alt"></i></span>
-                <input type="password" class="form-control" placeholder="Password">
-            </div>
+      <form class="login-form1" action="index.html">        
+        <div class="login-wraprs">
+            <h1>Registration Successful!</h1>
             
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Let's Register!</button>
+            <br> <br> 
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Proceed to Homepage...</button>
             
         </div>
       </form>
@@ -86,4 +65,14 @@
 
 
   </body>
+
+
 </html>
+
+
+<!--
+login-form1 in CSS for greater width in form 
+login-wraprs in CSS to center aligh text 
+-->
+
+

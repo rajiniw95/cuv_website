@@ -56,7 +56,7 @@ $route['event']='eventpage_controller';
 $route['login']='loginpage_controller';
 $route['calendar']='calendarpage_controller';
 $route['register']='registerpage_controller';
-
+$route['rs']='rspage_controller';
 
 
 
