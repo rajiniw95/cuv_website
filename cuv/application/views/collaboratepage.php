@@ -49,8 +49,8 @@
       </header>
       <!--header end-->
 
-      <form class="donate-form" action="index.html">        
-        <div class="donate-wrap">
+      <form class="collab-form" action="index.html">        
+        <div class="collab-wrap">
 
             <p><font color="black">
             <h3 align="center">Let's Collaborate!</h3>
@@ -125,4 +125,4 @@ Let us know why we should collaborate in the following form and we would get in 
   </body>
 </html>
  
-<!--Donation Form Styling created in CSS as donate-form-->
+<!--Collaboration Form Styling created in CSS as collab-form-->
