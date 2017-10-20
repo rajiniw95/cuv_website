@@ -420,7 +420,7 @@
                                           </div>                           
                                           <!-- Cateogry -->
                                           <div class="form-group">
-                                            <label class="control-label col-lg-2">Satisfactory Level</label>
+                                            <label class="control-label col-lg-2">Satisfaction Level</label>
                                             <div class="col-lg-10">                               
                                                 <select class="form-control">
                                                   <option value="">- Choose Option -</option>
