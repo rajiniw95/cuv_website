@@ -180,7 +180,33 @@ table tr th { color: #688a7e;}
 
 }
 
+.login-imgbubbles-body{
 
+  background: url('../img/login_bubbles.jpg') no-repeat center center fixed; 
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
+}
+
+.calendar-img-body{
+
+  background: url('../img/bg_bubbles.jpg') no-repeat center center fixed; 
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
+}
 
 .login-form {
 
@@ -974,6 +1000,11 @@ ul.sidebar-menu li.active a i {
 
 }
 
+#main-content_nosidebar {
+
+    margin-left: 0px;
+
+}
 
 
 .header, .footer {

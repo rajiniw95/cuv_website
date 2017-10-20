@@ -53,3 +53,12 @@ $route['default_controller'] = 'main';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['event']='eventpage_controller';
+$route['login']='loginpage_controller';
+$route['calendar']='calendarpage_controller';
+$route['register']='registerpage_controller';
+
+
+
+
+
+

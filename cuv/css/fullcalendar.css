@@ -609,4 +609,29 @@ table.fc-border-separate {
 	_overflow: hidden;
 	}
 	
+.mycal-div{
+    padding: 0px;
+    border: 0px;
+    text-align: left;
+}
+
+.fc-day-number{
+    text-align: right;
+    font-weight: bold;
+}
+
+#mycalendar th{
+    background-color: #986efe;
+    color: #f8f2fe;
+}
+
+#mycalendar td{
+    background-color: #f8f2fe;
+    width: 128px;
+}
+
+#mycalendar td:hover{
+    background-color: #dadafe;
+}
+
 	
