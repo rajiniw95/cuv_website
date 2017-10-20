@@ -107,17 +107,24 @@
           <section class="wrapper">
           <div class="row">
                 <div class="col-lg-12">
-                    <div class="landingpage">
+                    <div class="jumbotron">
       <div class="container">
         <h1>About Colombo University Volunteers...</h1>
-        <h3>Our aim is to establish an all faculty volunteer group network that focuses on student welfare, their social and psychological issues as well as a support group to delegate the work done by the student counselor's office and to needy community outside the university through knowledge of students.</h3>
+        <h3>Our aim is to establish an all faculty volunteer group network that focuses on student welfare, their social and psychological issues as well as a support group to delegate the work done by the student counselor's office and to needy community outside the university through knowledge of students.</h3> <br>
       
 
       <h1>Our Mission</h1>
-        <h3>Colombo University Volunteers are aiming at social integrating and supporting psycho-social work among university community and support sustainable social development activities of outside the community through knowledge based volunteerism.</h3>
+        <h3>Colombo University Volunteers are aiming at social integrating and supporting psycho-social work among university community and support sustainable social development activities of outside the community through knowledge based volunteerism.</h3><br>
 
         <h1>Our Vision</h1>
-        <h3>'Mobilizing knowledge based volunteers of University of Colombo and supporting needy university and outside community'</h3>
+        <h3>'Mobilizing knowledge based volunteers of University of Colombo and supporting needy university and outside community'</h3><br>
+        </div>
+    
+
+    <div class="container">
+        
+
+        <button class="btn btn-primary btn-lg btn-block" type="button">View our Photo Gallery...</button>
         </div>
     </div>
 
