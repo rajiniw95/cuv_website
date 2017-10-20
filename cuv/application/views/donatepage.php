@@ -64,44 +64,44 @@
             </div>
 
             <div class="input-group">
-              <span class="input-group-addon"><i class="icon_id"></i></span>
+              <span class="input-group-addon"><i class="icon_profile"></i></span>
               <input type="text" class="form-control" placeholder="NIC Number" autofocus>
             </div>
 
             <div class="input-group">
-              <span class="input-group-addon"><i class="icon_calendar"></i></span>
+              <span class="input-group-addon"><i class="icon_profile"></i></span>
               <input type="text" class="form-control" placeholder="Date of Birth" autofocus>
             </div>
 
             <div class="input-group">
-                                      <label class="control-label col-lg-5" for="inputSuccess">Gender&emsp;&emsp;&emsp;&emsp;</label>
-                                      <div class="col-lg-7">
+                                      <label class="control-label col-lg-4" for="inputSuccess">Gender&emsp;&emsp;</label>
+                                      <div class="col-lg-8">
                                           <label class="checkbox-inline">
-                                              <input type="checkbox" id="Checkbox1" value="Male"><font size="10"> <i class="fa fa-male" aria-hidden="true"></i></font>
+                                              <input type="checkbox" id="Checkbox1" value="Male"> Male
                                           </label>
                                           <label class="checkbox-inline">
-                                              <input type="checkbox" id="Checkbox2" value="Female"><font size="10"> <i class="fa fa-female" aria-hidden="true"></i></font>
+                                              <input type="checkbox" id="Checkbox2" value="Female"> Female
                                           </label>
                                           
                                       </div> </div>
 
             <div class="input-group">
-              <span class="input-group-addon"><i class="icon_house_alt"></i></span>
+              <span class="input-group-addon"><i class="icon_profile"></i></span>
               <input type="text" class="form-control" placeholder="Address" autofocus>
             </div>
 
             <div class="input-group">
-              <span class="input-group-addon"><i class="icon_phone"></i></span>
+              <span class="input-group-addon"><i class="icon_profile"></i></span>
               <input type="text" class="form-control" placeholder="Mobile Number" autofocus>
             </div>
 
             <div class="input-group">
-              <span class="input-group-addon"><i class="  icon_pens"></i></span>
+              <span class="input-group-addon"><i class="icon_profile"></i></span>
               <input type="text" class="form-control" placeholder="Faculty" autofocus>
             </div>
 
             <div class="input-group">
-              <span class="input-group-addon"><i class="icon_genius"></i></span>
+              <span class="input-group-addon"><i class="icon_profile"></i></span>
               <input type="text" class="form-control" placeholder="Position" autofocus>
             </div>
 

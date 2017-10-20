@@ -57,7 +57,8 @@ $route['login']='loginpage_controller';
 $route['calendar']='calendarpage_controller';
 $route['register']='registerpage_controller';
 $route['rs']='rspage_controller';
-
+$route['donate']='donatepage_controller';
+$route['collaborate']='collaboratepage_controller';
 
 
 
