@@ -54,41 +54,14 @@
 
             <p><font color="black">
             <h3 align="center">Make a donation</h3>
-Your donations mean we can continue our life saving research and offer support to heart patients.
+Your donations mean we can continue our life changing campaigns and workshops and offer support to those in need. <br> <br>
 
-To pay in money from a sponsorship or fundraising event, please use our paying in form.</font></p>
+To make a donation fill in the following form and we would get in touch with you. </font></p>
             <br>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <input type="text" class="form-control" placeholder="First Name" autofocus>
+              <input type="text" class="form-control" placeholder="Name" autofocus>
             </div>
-
-            <div class="input-group">
-              <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <input type="text" class="form-control" placeholder="Last Name" autofocus>
-            </div>
-
-            <div class="input-group">
-              <span class="input-group-addon"><i class="icon_id"></i></span>
-              <input type="text" class="form-control" placeholder="NIC Number" autofocus>
-            </div>
-
-            <div class="input-group">
-              <span class="input-group-addon"><i class="icon_calendar"></i></span>
-              <input type="text" class="form-control" placeholder="Date of Birth" autofocus>
-            </div>
-
-            <div class="input-group">
-                                      <label class="control-label col-lg-5" for="inputSuccess">Gender&emsp;&emsp;&emsp;&emsp;</label>
-                                      <div class="col-lg-7">
-                                          <label class="checkbox-inline">
-                                              <input type="checkbox" id="Checkbox1" value="Male"><font size="10"> <i class="fa fa-male" aria-hidden="true"></i></font>
-                                          </label>
-                                          <label class="checkbox-inline">
-                                              <input type="checkbox" id="Checkbox2" value="Female"><font size="10"> <i class="fa fa-female" aria-hidden="true"></i></font>
-                                          </label>
-                                          
-                                      </div> </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_house_alt"></i></span>
@@ -101,21 +74,35 @@ To pay in money from a sponsorship or fundraising event, please use our paying i
             </div>
 
             <div class="input-group">
-              <span class="input-group-addon"><i class="  icon_pens"></i></span>
-              <input type="text" class="form-control" placeholder="Faculty" autofocus>
-            </div>
+              <span class="input-group-addon"><i class="icon_mail"></i></span>
+              <input type="text" class="form-control" placeholder="E-mail Address" autofocus>
+            </div> <br>
+
+            <div class="form-group ">
+                                          <label for="ccomment" class="control-label col-lg-12">Leave a message...</label>
+                                          <div class="col-lg-12">
+                                              <textarea class="form-control " id="ccomment" name="comment" required></textarea>
+                                          </div>
+                                      </div> <br>
 
             <div class="input-group">
-              <span class="input-group-addon"><i class="icon_genius"></i></span>
-              <input type="text" class="form-control" placeholder="Position" autofocus>
-            </div>
+                                      <label class="control-label col-lg-12" for="inputSuccess"><font color="black">KEEPING IN TOUCH<br> CUV would like to contact you regarding this form. How should we get in touch?</font></label>
+                                     
+                                          <label class="checkbox">
+                                              <input type="checkbox" id="Checkbox1" value="mail"> <font color="black">Yes. I'd like to hear from you by mail</font>
+                                          </label>
 
-            <div class="input-group">
-                <span class="input-group-addon"><i class="icon_key_alt"></i></span>
-                <input type="password" class="form-control" placeholder="Create Password">
-            </div>
+                                          <label class="checkbox">
+                                              <input type="checkbox" id="Checkbox2" value="phone"> <font color="black">Yes. I'd like to hear from you by phone</font>
+                                          </label>
+
+                                          <label class="checkbox">
+                                              <input type="checkbox" id="Checkbox3" value="email"><font color="black">Yes. I'd like to hear from you by email</font>
+                                          </label>
+                                          
+                                      </div>
             
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Submit Request</button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Submit </button>
             
         </div>
       </form>
@@ -127,5 +114,5 @@ To pay in money from a sponsorship or fundraising event, please use our paying i
 
   </body>
 </html>
-
+ 
 <!--Donation Form Styling created in CSS as donate-form-->
