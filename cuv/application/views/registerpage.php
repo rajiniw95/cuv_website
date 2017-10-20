@@ -74,17 +74,16 @@
             </div>
 
             <div class="input-group">
-                                      <label class="control-label col-lg-5" for="inputSuccess">Gender&emsp;&emsp;&emsp;&emsp;</label>
-                                      <div class="col-lg-7">
-                                          <label class="checkbox-inline">
-                                              <input type="checkbox" id="Checkbox1" value="Male"><font size="10"> <i class="fa fa-male" aria-hidden="true"></i></font>
-                                          </label>
-                                          <label class="checkbox-inline">
-                                              <input type="checkbox" id="Checkbox2" value="Female"><font size="10"> <i class="fa fa-female" aria-hidden="true"></i></font>
-                                          </label>
-                                          
-                                      </div> </div>
-
+                                      <label class="control-label col-lg-4" for="inputSuccess">Gender</label>
+                                      <div class="col-lg-8">
+                                          <label class="radio-inline">
+                                             <input type="radio" name= "Gender" id="Radio1" value="Male"><font size="10"> <i class="fa fa-male" aria-hidden="true"></i></font>
+                                         </label>
+                                         <label class="radio-inline">
+                                             <input type="radio" name="Gender" id="Radio2" value="Female"><font size="10"> <i class="fa fa-female" aria-hidden="true"></i></font>
+                                         </label>
+                                         </div> </div>
+               
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_house_alt"></i></span>
               <input type="text" class="form-control" placeholder="Address" autofocus>

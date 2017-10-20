@@ -839,6 +839,620 @@ table tr th { color: #688a7e;}
 
 }
 
+/*Donation Form Styling Created*/
+
+.donate-form {
+
+    max-width: 400px;
+
+    margin: 120px auto 0;
+
+    background: #d5d7de;    
+
+}
+
+
+.donate-img-body .donate-form{
+
+    max-width: 350px;
+
+    margin: 200px auto 0;
+
+    background: rgba(213,215,222,0.4);
+
+    border: 1px solid #B0B6BE;
+
+}
+
+.donate-img2-body .donate-form{
+
+    border: 1px solid #B0B6BE;
+
+    background: rgba(213,215,222,0.7);
+
+}
+
+.donate-img3-body .donate-form{
+
+    border: 1px solid #B0B6BE;
+
+    background: rgba(213,215,222,0.9);
+
+}
+
+
+.donate-form a{
+
+    color: #688a7e !important;
+
+}
+
+.donate-form h2.donate-form-heading {
+
+    margin: 0;
+
+    padding:20px 15px;
+
+    text-align: center;
+
+    background: #34aadc;
+
+    border-radius: 5px 5px 0 0;
+
+    -webkit-border-radius: 5px 5px 0 0;
+
+    color: #fff;
+
+    font-size: 18px;
+
+    text-transform: uppercase;
+
+    font-weight: 300;
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+.donate-form .checkbox {
+
+    margin-bottom: 14px;
+
+}
+
+.donate-form .checkbox {
+
+    font-weight: normal;    
+
+    font-weight: 300;
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+.donate-form .form-control {
+
+    position: relative;
+
+    font-size: 16px;
+
+    height: auto;
+
+    padding: 10px;
+
+    -webkit-box-sizing: border-box;
+
+    -moz-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+}
+
+.donate-form .form-control:focus {
+
+    z-index: 2;
+
+}
+
+.donate-form .donate-img{
+
+    font-size: 50px;
+
+    font-weight: 300;    
+
+}
+
+.donate-form .input-group{
+
+    padding-bottom: 15px;
+
+}
+
+.donate-form .input-group-addon{
+
+    padding: 6px 12px;
+
+    font-size: 16px;
+
+    color: #8b9199;
+
+    font-weight: normal;
+
+    line-height: 1;
+
+    text-align: center;
+
+    background-color: #ffffff;
+
+    border: none;
+
+    border-radius: 0;
+
+}
+
+.donate-form input[type="text"], .donate-form input[type="password"] {    
+
+    border: none;
+
+    box-shadow: none;
+
+    font-size: 16px;
+
+    border-radius: 0; 
+
+}
+
+.donate-form .btn{
+
+    border-radius: 0;
+
+}
+
+.donate-form .btn-donate {
+
+    background: #f67a6e;
+
+    color: #fff;
+
+    text-transform: uppercase;
+
+    font-weight: 300;
+
+    font-family: 'Lato', sans-serif;
+
+    box-shadow: 0 4px #e56b60;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.donate-form p {
+
+    text-align: center;
+
+    color: #b6b6b6;
+
+    font-size: 16px;
+
+    font-weight: 300;
+
+}
+
+.donate-img3-body .donate-form p,.donate-img2-body .donate-form p {
+
+    color: #34aadc;
+
+}
+
+.donate-form a {
+
+    color: #b6b6b6;
+
+}
+
+
+
+.donate-form a:hover {
+
+    color: #34aadc;
+
+}
+
+.form .required{
+
+    font-size: 16px;
+
+    color: #00a0df;
+
+}
+
+
+
+.donate-wrap {
+
+    padding: 20px;
+
+}
+
+
+
+
+.donate-social-link  {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.donate-social-link a {
+
+    color: #fff;
+
+    padding: 15px 28px;
+
+    border-radius: 4px;
+
+}
+
+
+
+.donate-social-link a:hover {
+
+    color: #fff;
+
+}
+
+
+
+.donate-social-link a i {
+
+    font-size: 20px;
+
+    padding-right: 10px;
+
+}
+
+
+
+.donate-social-link a.facebook {
+
+    background: #5193ea;
+
+    margin-right: 22px;
+
+    box-shadow: 0 4px #2775e2;
+
+    float:left;
+
+}
+
+
+
+.donate-social-link a.twitter {
+
+    background: #44ccfe;
+
+    box-shadow: 0 4px #2bb4e8;
+
+    float:left;
+
+}
+
+/*Collaboration Form Styling Created*/
+
+.collab-form {
+
+    max-width: 400px;
+
+    margin: 120px auto 0;
+
+    background: #d5d7de;    
+
+}
+
+
+.collab-img-body .collab-form{
+
+    max-width: 350px;
+
+    margin: 200px auto 0;
+
+    background: rgba(213,215,222,0.4);
+
+    border: 1px solid #B0B6BE;
+
+}
+
+.collab-img2-body .collab-form{
+
+    border: 1px solid #B0B6BE;
+
+    background: rgba(213,215,222,0.7);
+
+}
+
+.collab-img3-body .collab-form{
+
+    border: 1px solid #B0B6BE;
+
+    background: rgba(213,215,222,0.9);
+
+}
+
+
+.collab-form a{
+
+    color: #688a7e !important;
+
+}
+
+.collab-form h2.collab-form-heading {
+
+    margin: 0;
+
+    padding:20px 15px;
+
+    text-align: center;
+
+    background: #34aadc;
+
+    border-radius: 5px 5px 0 0;
+
+    -webkit-border-radius: 5px 5px 0 0;
+
+    color: #fff;
+
+    font-size: 18px;
+
+    text-transform: uppercase;
+
+    font-weight: 300;
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+.collab-form .checkbox {
+
+    margin-bottom: 14px;
+
+}
+
+.collab-form .checkbox {
+
+    font-weight: normal;    
+
+    font-weight: 300;
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+.collab-form .form-control {
+
+    position: relative;
+
+    font-size: 16px;
+
+    height: auto;
+
+    padding: 10px;
+
+    -webkit-box-sizing: border-box;
+
+    -moz-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+}
+
+.collab-form .form-control:focus {
+
+    z-index: 2;
+
+}
+
+.collab-form .collab-img{
+
+    font-size: 50px;
+
+    font-weight: 300;    
+
+}
+
+.collab-form .input-group{
+
+    padding-bottom: 15px;
+
+}
+
+.collab-form .input-group-addon{
+
+    padding: 6px 12px;
+
+    font-size: 16px;
+
+    color: #8b9199;
+
+    font-weight: normal;
+
+    line-height: 1;
+
+    text-align: center;
+
+    background-color: #ffffff;
+
+    border: none;
+
+    border-radius: 0;
+
+}
+
+.collab-form input[type="text"], .collab-form input[type="password"] {    
+
+    border: none;
+
+    box-shadow: none;
+
+    font-size: 16px;
+
+    border-radius: 0; 
+
+}
+
+.collab-form .btn{
+
+    border-radius: 0;
+
+}
+
+.collab-form .btn-collab {
+
+    background: #f67a6e;
+
+    color: #fff;
+
+    text-transform: uppercase;
+
+    font-weight: 300;
+
+    font-family: 'Lato', sans-serif;
+
+    box-shadow: 0 4px #e56b60;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.collab-form p {
+
+    text-align: center;
+
+    color: #b6b6b6;
+
+    font-size: 16px;
+
+    font-weight: 300;
+
+}
+
+.collab-img3-body .collab-form p,.collab-img2-body .collab-form p {
+
+    color: #34aadc;
+
+}
+
+.collab-form a {
+
+    color: #b6b6b6;
+
+}
+
+
+
+.collab-form a:hover {
+
+    color: #34aadc;
+
+}
+
+.form .required{
+
+    font-size: 16px;
+
+    color: #00a0df;
+
+}
+
+
+
+.collab-wrap {
+
+    padding: 20px;
+
+}
+
+
+
+
+.collab-social-link  {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.collab-social-link a {
+
+    color: #fff;
+
+    padding: 15px 28px;
+
+    border-radius: 4px;
+
+}
+
+
+
+.collab-social-link a:hover {
+
+    color: #fff;
+
+}
+
+
+
+.collab-social-link a i {
+
+    font-size: 20px;
+
+    padding-right: 10px;
+
+}
+
+
+
+.collab-social-link a.facebook {
+
+    background: #5193ea;
+
+    margin-right: 22px;
+
+    box-shadow: 0 4px #2775e2;
+
+    float:left;
+
+}
+
+
+
+.collab-social-link a.twitter {
+
+    background: #44ccfe;
+
+    box-shadow: 0 4px #2bb4e8;
+
+    float:left;
+
+}
+
 /*Modal Content*/
 
 .modal-content{
