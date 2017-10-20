@@ -59,6 +59,9 @@ $route['register']='registerpage_controller';
 $route['rs']='rspage_controller';
 $route['donate']='donatepage_controller';
 $route['collaborate']='collaboratepage_controller';
+$route['homepage']='userhomepage_controller';
+$route['gallery']='gallerypage_controller';
+
 
 
 

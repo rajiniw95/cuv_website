@@ -4326,14 +4326,14 @@ a.list-group-item.active > .badge,
   display: block;
   max-width: 100%;
   height: auto;
+  margin:10px;
 }
 a.thumbnail:hover,
 a.thumbnail:focus {
   border-color: #007aff;
 }
 .thumbnail > img {
-  margin-left: auto;
-  margin-right: auto;
+  margin:10px;
 }
 .thumbnail .caption {
   padding: 9px;

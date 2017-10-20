@@ -1454,6 +1454,84 @@ table tr th { color: #688a7e;}
 
 }
 
+/*Custom Stying for Landing Page*/
+#get-involved {
+    background-color: #87ffbb;
+}
+
+/*Custom Stying for Landing Page*/
+.jumbotron {
+    text-align: center;
+    color: black;
+}
+
+/*Custom Stying for Landing Page*/
+.jumbotron h1 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+/*Custom Stying for Landing Page*/
+.jumbotron p {
+    margin-bottom: 30px;
+    font-weight: 100;
+    padding: 0 50px;
+}
+
+/*Custom Stying for Landing Page*/
+.btn-lg {
+    font-size: 36px;
+}
+
+/*Custom Stying for Landing Page*/
+.homepage {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+/*Custom Stying for Landing Page*/
+.homepage h2, .homepage h3 {
+    color: #EE7600;
+    font-family: 'Arvo', courier, serif;
+    text-transform: uppercase;
+}
+
+/*Custom Stying for Landing Page*/
+.homepage h2 {
+    font-size: 23px;
+}
+
+/*Custom Stying for Landing Page*/
+.homepage h3 {
+    font-size: 18px;
+}
+
+/*Custom Stying for Landing Page*/
+.homepage p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/*Custom Stying for Landing Page*/
+.homepage a {
+    color: #e74c3c;
+}
+
+/*Custom Stying for Landing Page*/
+.homepage a:hover {
+    color: #e74c3c;
+    text-decoration: none;
+    opacity: .8;
+}
+
+/*Custom Stying for Landing Page*/
+.homepage hr {
+    border-top: 1px solid #EE7600;
+    width: 160px;
+    margin-top: 15px;
+}
+
 /*Modal Content*/
 
 .modal-content{
