@@ -62,7 +62,9 @@ $route['collaborate']='collaboratepage_controller';
 $route['homepage']='userhomepage_controller';
 $route['gallery']='gallerypage_controller';
 $route['adminhome']='adminhomepage_controller';
-$route['aboutus']='aboutpage_controller';
+$route['about']='aboutpage_controller';
+$route['profile']='profilepage_controller';
+
 
 
 
