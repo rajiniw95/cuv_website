@@ -8,7 +8,7 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="img/favicon.png">
 
-    <title>CUV|MyProfile</title>
+    <title>CUV|Reviews</title>
 
     <!-- Bootstrap CSS -->    
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -67,54 +67,15 @@
       <!--header end-->
 
 
-      <!--sidebar start-->
-      <aside>
-          <div id="sidebar"  class="nav-collapse ">
-              <!-- sidebar menu start-->
-              <ul class="sidebar-menu">                
-                  <li class="active">
-                      <a class="" href="index.html">
-                          
-                          <span>ABOUT CUV</span>
-                      </a>
-                  </li>
-                  <li class="active">
-                      <a class="" href="index.html">
-                          
-                          <span>GALLERY</span>
-                      </a>
-                  </li>
-                  <li class="active">
-                      <a class="" href="index.html">
-                          
-                          <span>UPCOMING EVENTS</span>
-                      </a>
-                  </li> 
-                  <li class="active">
-                      <a class="" href="index.html">
-                          
-                          <span>REVIEWS</span>
-                      </a>
-                  </li> 
-                  <li class="active">
-                      <a class="" href="index.html">
-                          
-                          <span>LOGOUT</span>
-                      </a>
-                  </li>   
-              </ul>
-              <!-- sidebar menu end-->
-          </div>
-      </aside>
-      <!--sidebar end-->
+  
        
       <!--main content start-->
-      <section id="main-content">
+      <section id="main-content_nosidebar">
           <section class="wrapper">            
               <!--overview start-->
         <div class="row">
         <div class="col-lg-12">
-          <h3 class="page-header"><i class="icon_profile"></i> My Profile</h3>
+          <h3 class="page-header"><i class="fa fa-users" aria-hidden="true"></i> Club Reviews</h3>
         </div>
       </div>
               
