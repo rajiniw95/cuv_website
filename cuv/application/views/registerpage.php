@@ -109,7 +109,7 @@
                 <input type="password" class="form-control" placeholder="Create Password">
             </div>
             
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Let's Register!</button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Let's Register!</font>
             
         </div>
       </form>

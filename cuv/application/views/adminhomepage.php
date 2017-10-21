@@ -8,7 +8,7 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="img/favicon.png">
 
-    <title>Creative - Bootstrap Admin Template</title>
+    <title>CUV|Homepage</title>
 
     <!-- Bootstrap CSS -->    
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -168,7 +168,7 @@
                           <div class="panel-body progress-panel">
                             <div class="row">
                               <div class="col-lg-8 task-progress pull-left">
-                                  <h1>To Do Everyday</h1>                                  
+                                  <h1>My Events</h1>                                  
                               </div>
                               <div class="col-lg-4">
                                 <span class="profile-ava pull-right">
@@ -391,7 +391,7 @@
          <div class="col-md-6 portlets">
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <div class="pull-left">Quick Post</div>
+                  <div class="pull-left">Write Review</div>
                   <div class="widget-icons pull-right">
                     <a href="#" class="wminimize"><i class="fa fa-chevron-up"></i></a> 
                     <a href="#" class="wclose"><i class="fa fa-times"></i></a>
@@ -413,46 +413,43 @@
                                           </div>   
                                           <!-- Content -->
                                           <div class="form-group">
-                                            <label class="control-label col-lg-2" for="content">Content</label>
+                                            <label class="control-label col-lg-2" for="content">Write your Review...</label>
                                             <div class="col-lg-10">
                                               <textarea class="form-control" id="content"></textarea>
                                             </div>
                                           </div>                           
                                           <!-- Cateogry -->
                                           <div class="form-group">
-                                            <label class="control-label col-lg-2">Category</label>
+                                            <label class="control-label col-lg-2">Satisfaction Level</label>
                                             <div class="col-lg-10">                               
                                                 <select class="form-control">
-                                                  <option value="">- Choose Cateogry -</option>
-                                                  <option value="1">General</option>
-                                                  <option value="2">News</option>
-                                                  <option value="3">Media</option>
-                                                  <option value="4">Funny</option>
+                                                  <option value="">- Choose Option -</option>
+                                                  <option value="1">1</option>
+                                                  <option value="2">2</option>
+                                                  <option value="3">3</option>
+                                                  <option value="4">4</option>
+                                                  <option value="5">5</option>
                                                 </select>  
                                             </div>
                                           </div>              
-                                          <!-- Tags -->
-                                          <div class="form-group">
-                                            <label class="control-label col-lg-2" for="tags">Tags</label>
-                                            <div class="col-lg-10">
-                                              <input type="text" class="form-control" id="tags">
-                                            </div>
-                                          </div>
+                                          
                                           
                                           <!-- Buttons -->
                                           <div class="form-group">
                                              <!-- Buttons -->
                        <div class="col-lg-offset-2 col-lg-9">
                         <button type="submit" class="btn btn-primary">Publish</button>
-                        <button type="submit" class="btn btn-danger">Save Draft</button>
+                        
                         <button type="reset" class="btn btn-default">Reset</button>
                        </div>
                                           </div>
                                       </form>
                                     </div>
+
                   
 
                   </div>
+                  
                   <div class="widget-foot">
                     <!-- Footer goes here -->
                   </div>
@@ -460,8 +457,7 @@
               </div>
               
             </div>
-                        
-          </div> 
+            
               <!-- project team & activity end -->
 
           </section>
@@ -473,7 +469,7 @@
                     Licensing information: https://bootstrapmade.com/license/
                     Purchase the pro version form: https://bootstrapmade.com/buy/?theme=NiceAdmin
                 -->
-                <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                
             </div>
         </div>
       </section>
