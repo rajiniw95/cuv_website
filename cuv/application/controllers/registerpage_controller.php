@@ -6,6 +6,9 @@ class registerpage_controller extends CI_Controller {
         parent::__construct();
         $this->load->model('Registerpage_model');
     }
+
+
+    //Validation for registration form
     function index() {
         //Including validation library
         $this->load->library('form_validation');
