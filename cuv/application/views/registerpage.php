@@ -51,26 +51,24 @@
 
       <form class="reg-form" action="index.html">        
         <div class="reg-wrap">
-            
+            <?php echo form_open('registerpage_controller'); ?>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <input type="text" class="form-control" placeholder="First Name" autofocus> 
+              <?php echo form_error('fname'); ?>
+              <input type="text" id="fname" class="form-control" placeholder="First Name" autofocus >
             </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <input type="text" class="form-control" placeholder="Last Name" autofocus>
+              <?php echo form_error('lname'); ?>
+              <input type="text" id="lname" class="form-control" placeholder="Last Name" autofocus >
             </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_id"></i></span>
-              <input type="text" class="form-control" placeholder="NIC Number" autofocus>
-            </div>
-
-            <div class="input-group">
-              <span class="input-group-addon"><i class="icon_calendar"></i></span>
-              <input type="text" class="form-control" placeholder="Date of Birth" autofocus>
+              <?php echo form_error('nic'); ?>
+              <input type="text" id="nic" class="form-control" placeholder="NIC Number" autofocus>
             </div>
 
             <div class="input-group">
@@ -86,33 +84,45 @@
                
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_house_alt"></i></span>
-              <input type="text" class="form-control" placeholder="Address" autofocus>
+              <?php echo form_error('address'); ?>
+              <input type="text" id="address" class="form-control" placeholder="Address" autofocus >
             </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_phone"></i></span>
-              <input type="text" class="form-control" placeholder="Mobile Number" autofocus>
+              <?php echo form_error('mobile'); ?>
+              <input type="text" id="mobile" class="form-control" placeholder="Mobile Number" autofocus >
             </div>
 
             <div class="input-group">
+              <span class="input-group-addon"><i class="icon_mail"></i></span>
+              <?php echo form_error('email'); ?>
+              <input type="text" id="email" class="form-control" placeholder="E-mail Address" autofocus>
+            </div> <br>
+
+            <div class="input-group">
               <span class="input-group-addon"><i class="  icon_pens"></i></span>
-              <input type="text" class="form-control" placeholder="Faculty" autofocus>
+              <?php echo form_error('faculty'); ?>
+              <input type="text" id="faculty" class="form-control" placeholder="Faculty" autofocus >
             </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_genius"></i></span>
-              <input type="text" class="form-control" placeholder="Position" autofocus>
+              <?php echo form_error('position'); ?>
+              <input type="text" id="position" class="form-control" placeholder="Position" autofocus >
             </div>
 
             <div class="input-group">
                 <span class="input-group-addon"><i class="icon_key_alt"></i></span>
-                <input type="password" class="form-control" placeholder="Create Password">
+                <?php echo form_error('pwd'); ?>
+                <input type="password" id="pwd" class="form-control" placeholder="Create Password">
             </div>
             
             <button class="btn btn-primary btn-lg btn-block" type="submit">Let's Register!</font>
             
         </div>
       </form>
+
     <div class="text-right">
             
         </div>
