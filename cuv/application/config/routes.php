@@ -65,9 +65,4 @@ $route['adminhome']='adminhomepage_controller';
 $route['about']='aboutpage_controller';
 $route['profile']='profilepage_controller';
 $route['reviews']='reviewpage_controller';
-
-
-
-
-
-
+$route['committee']='committepage_controller';
