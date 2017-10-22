@@ -10,14 +10,14 @@
 
     <title>CUV|MyProfile</title>
 
-    <!-- Bootstrap CSS -->    
+    <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- bootstrap theme -->
     <link href="css/bootstrap-theme.css" rel="stylesheet">
     <!--external css-->
     <!-- font icon -->
     <link href="css/elegant-icons-style.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />    
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
     <!-- full calendar css-->
     <link href="assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" />
   <link href="assets/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" />
@@ -31,7 +31,7 @@
   <link href="css/widgets.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
-  <link href="css/xcharts.min.css" rel=" stylesheet"> 
+  <link href="css/xcharts.min.css" rel=" stylesheet">
   <link href="css/jquery-ui-1.10.4.min.css" rel="stylesheet">
 
   <link href="css/profile_css.css" rel="stylesheet">
@@ -46,22 +46,22 @@
   <body>
   <!-- container section start -->
   <section id="container" class="">
-     
-      
+
+
       <!--header start-->
       <header class="header dark-bg">
-            
+
 
             <!--logo start-->
             <a href="index.html" class="logo">Colombo University<span class="lite">Volunteers</span></a>
             <!--logo end-->
 
             <div class="nav search-row" id="top_menu">
-                
+
             </div>
 
             <div class="top-nav notification-row">
-                
+
             </div>
       </header>
       <!--header end-->
@@ -71,72 +71,84 @@
       <aside>
           <div id="sidebar"  class="nav-collapse ">
               <!-- sidebar menu start-->
-              <ul class="sidebar-menu">                
+              <ul class="sidebar-menu">
                   <li class="active">
                       <a class="" href="index.html">
-                          
+
                           <span>ABOUT CUV</span>
                       </a>
                   </li>
                   <li class="active">
                       <a class="" href="index.html">
-                          
+
                           <span>GALLERY</span>
                       </a>
                   </li>
                   <li class="active">
                       <a class="" href="index.html">
-                          
+
                           <span>UPCOMING EVENTS</span>
                       </a>
-                  </li> 
+                  </li>
                   <li class="active">
                       <a class="" href="index.html">
-                          
+
                           <span>REVIEWS</span>
                       </a>
+                  </li>
+                  <li class="active">
+                      <a class="" href="index.html">
+
+                          <span>COMMITTEE</span>
+                      </a>
+                  </li>
+                  <li class="active">
+                      <a class="" href="index.html">
+
+                          <span>CONTACT US</span>
+                      </a>
                   </li> 
                   <li class="active">
                       <a class="" href="index.html">
-                          
+
                           <span>LOGOUT</span>
                       </a>
-                  </li>   
+                  </li>
               </ul>
               <!-- sidebar menu end-->
           </div>
       </aside>
       <!--sidebar end-->
-       
+
       <!--main content start-->
       <section id="main-content">
-          <section class="wrapper">            
+          <section class="wrapper">
               <!--overview start-->
         <div class="row">
         <div class="col-lg-12">
           <h3 class="page-header"><i class="icon_profile"></i> My Profile</h3>
         </div>
       </div>
-              
+
             <div class="row">
 
-        
+
       </div><!--/.row-->
       <div class="container">
       <div class="row">
-      
 
-       
+
+
        <br>
       </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
-   
-   
+
+
           <div class="panel panel-info">
-            
-            
-                 
-            
+
+
+
+
           </div>
         </div>
       </div>
@@ -176,7 +188,7 @@
     <!-- custom select -->
     <script src="js/jquery.customSelect.min.js" ></script>
   <script src="assets/chart-master/Chart.js"></script>
-   
+
     <!--custome script for all page-->
     <script src="js/scripts.js"></script>
     <!-- custom script for this page-->
@@ -187,9 +199,9 @@
   <script src="js/xcharts.min.js"></script>
   <script src="js/jquery.autosize.min.js"></script>
   <script src="js/jquery.placeholder.min.js"></script>
-  <script src="js/gdp-data.js"></script>  
+  <script src="js/gdp-data.js"></script>
   <script src="js/morris.min.js"></script>
-  <script src="js/sparklines.js"></script>  
+  <script src="js/sparklines.js"></script>
   <script src="js/charts.js"></script>
   <script src="js/jquery.slimscroll.min.js"></script>
   <script>
@@ -197,7 +209,7 @@
       //knob
       $(function() {
         $(".knob").knob({
-          'draw' : function () { 
+          'draw' : function () {
             $(this.i).val(this.cv + '%')
           }
         })
@@ -219,7 +231,7 @@
       $(function(){
           $('select.styled').customSelect();
       });
-    
+
     /* ---------- Map ---------- */
   $(function(){
     $('#map').vectorMap({
@@ -242,17 +254,3 @@
 
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
