@@ -10,17 +10,17 @@
 
     <title>CUV|Homepage</title>
 
-    <!-- Bootstrap CSS -->    
+    <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- bootstrap theme -->
     <link href="css/bootstrap-theme.css" rel="stylesheet">
     <!--external css-->
     <!-- font icon -->
     <link href="css/elegant-icons-style.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />  
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
      <!-- This is our Google Arvo font and Font-Awesome -->
      <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>  
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <!-- full calendar css-->
     <link href="assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" />
   <link href="assets/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" />
@@ -34,7 +34,7 @@
   <link href="css/widgets.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
-  <link href="css/xcharts.min.css" rel=" stylesheet"> 
+  <link href="css/xcharts.min.css" rel=" stylesheet">
   <link href="css/jquery-ui-1.10.4.min.css" rel="stylesheet">
     <!-- =======================================================
         Theme Name: NiceAdmin
@@ -47,22 +47,22 @@
   <body>
   <!-- container section start -->
   <section id="container" class="">
-     
-      
+
+
       <!--header start-->
       <header class="header dark-bg">
-            
+
 
             <!--logo start-->
             <a href="index.html" class="logo">Colombo University<span class="lite">Volunteers</span></a>
             <!--logo end-->
 
             <div class="nav search-row" id="top_menu">
-                
+
             </div>
 
             <div class="top-nav notification-row">
-                
+
             </div>
       </header>
       <!--header end-->
@@ -71,93 +71,105 @@
       <aside>
           <div id="sidebar"  class="nav-collapse ">
               <!-- sidebar menu start-->
-              <ul class="sidebar-menu">                
+              <ul class="sidebar-menu">
                   <li class="active">
                       <a class="" href="index.html">
-                          
+
                           <span>ABOUT CUV</span>
                       </a>
                   </li>
                   <li class="active">
                       <a class="" href="index.html">
-                          
+
                           <span>GALLERY</span>
                       </a>
                   </li>
                   <li class="active">
                       <a class="" href="index.html">
-                          
+
                           <span>UPCOMING EVENTS</span>
                       </a>
-                  </li> 
+                  </li>
                   <li class="active">
                       <a class="" href="index.html">
-                          
+
                           <span>REVIEWS</span>
                       </a>
+                  </li>
+                  <li class="active">
+                      <a class="" href="index.html">
+
+                          <span>COMMITTEE</span>
+                      </a>
+                  </li>
+                  <li class="active">
+                      <a class="" href="index.html">
+
+                          <span>CONTACT US</span>
+                      </a>
                   </li> 
                   <li class="active">
                       <a class="" href="index.html">
-                          
+
                           <span>LOGOUT</span>
                       </a>
-                  </li>   
+                  </li>
               </ul>
               <!-- sidebar menu end-->
           </div>
       </aside>
       <!--sidebar end-->
-      
+
       <!--main content start-->
       <section id="main-content">
-          <section class="wrapper">            
+          <section class="wrapper">
               <!--overview start-->
         <div class="row">
-        
+
       </div><!--/.row-->
-    
-      
+
+
            <div class="row">
-        
+
         </div>
               <div class="col-md-3">
               <!-- List starts -->
         <ul class="today-datas">
                 <!-- List #1 -->
-        
+
               </ul>
               </div>
-              
-       
-           </div>  
-            
-      
+
+
+           </div>
+
+
       <!-- Today status end -->
-      
-              
-        
+
+
+
       <div class="row">
-                
-        <div class="col-lg-9 col-md-12">  
-          
-  
-          </div>  
+
+        <div class="col-lg-9 col-md-12">
+
+
+          </div>
 
         </div><!--/col-->
         <div class="col-md-3">
-          
-          
-          
+
+
+
         </div><!--/col-->
-        
+
               </div>
 
-                    
-                   
+
+
                 <!-- statics end -->
-              
-            
-        
+
+
+
 
               <!-- project team & activity start -->
           <div class="row">
@@ -168,13 +180,13 @@
                           <div class="panel-body progress-panel">
                             <div class="row">
                               <div class="col-lg-8 task-progress pull-left">
-                                  <h1>My Events</h1>                                  
+                                  <h1>My Events</h1>
                               </div>
                               <div class="col-lg-4">
                                 <span class="profile-ava pull-right">
                                         <img alt="" class="simple" src="img/avatar1_small.jpg">
                                         Jenifer smith
-                                </span>                                
+                                </span>
                               </div>
                             </div>
                           </div>
@@ -217,7 +229,7 @@
                                   <td>
                                       <div id="work-progress3"></div>
                                   </td>
-                              </tr>                              
+                              </tr>
                               <tr>
                                   <td>22-10-14</td>
                                   <td>
@@ -243,7 +255,7 @@
                                   <td>
                                       <div id="work-progress4"></div>
                                   </td>
-                              </tr>                              
+                              </tr>
                               <tr>
                                   <td>28-10-14</td>
                                   <td>
@@ -293,16 +305,16 @@
         <div class="panel-heading">
                   <div class="pull-left">Message</div>
                   <div class="widget-icons pull-right">
-                    <a href="#" class="wminimize"><i class="fa fa-chevron-up"></i></a> 
+                    <a href="#" class="wminimize"><i class="fa fa-chevron-up"></i></a>
                     <a href="#" class="wclose"><i class="fa fa-times"></i></a>
-                  </div>  
+                  </div>
                   <div class="clearfix"></div>
                 </div>
 
                 <div class="panel-body">
                   <!-- Widget content -->
                   <div class="padd sscroll">
-                    
+
                     <ul class="chats">
 
                       <!-- Chat by us. Use the class "by-me". -->
@@ -318,7 +330,7 @@
                           Vivamus diam elit diam, consectetur dapibus adipiscing elit.
                           <div class="clearfix"></div>
                         </div>
-                      </li> 
+                      </li>
 
                       <!-- Chat by other. Use the class "by-other". -->
                       <li class="by-other">
@@ -333,7 +345,7 @@
                           Vivamus diam elit diam, consectetur fconsectetur dapibus adipiscing elit.
                           <div class="clearfix"></div>
                         </div>
-                      </li>   
+                      </li>
 
                       <li class="by-me">
                         <div class="avatar pull-left">
@@ -345,7 +357,7 @@
                           Vivamus diam elit diam, consectetur fermentum sed dapibus eget, Vivamus consectetur dapibus adipiscing elit.
                           <div class="clearfix"></div>
                         </div>
-                      </li>  
+                      </li>
 
                       <li class="by-other">
                         <!-- Use the class "pull-right" in avatar -->
@@ -359,14 +371,14 @@
                           Vivamus diam elit diam, consectetur fermentum sed dapibus eget, Vivamus consectetur dapibus adipiscing elit.
                           <div class="clearfix"></div>
                         </div>
-                      </li>                                                                                  
+                      </li>
 
                     </ul>
 
                   </div>
                   <!-- Widget footer -->
                   <div class="widget-foot">
-                      
+
                       <form class="form-inline">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Type your message here...">
@@ -379,49 +391,49 @@
                 </div>
 
 
-              </div> 
+              </div>
             </div>
 
-                  
+
               </div><br><br>
-    
+
     <div class="row">
-      
-      
+
+
          <div class="col-md-6 portlets">
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <div class="pull-left">Write Review</div>
                   <div class="widget-icons pull-right">
-                    <a href="#" class="wminimize"><i class="fa fa-chevron-up"></i></a> 
+                    <a href="#" class="wminimize"><i class="fa fa-chevron-up"></i></a>
                     <a href="#" class="wclose"><i class="fa fa-times"></i></a>
-                  </div>  
+                  </div>
                   <div class="clearfix"></div>
                 </div>
                 <div class="panel-body">
                   <div class="padd">
-                    
+
                       <div class="form quick-post">
                                       <!-- Edit profile form (not working)-->
                                       <form class="form-horizontal">
                                           <!-- Title -->
                                           <div class="form-group">
                                             <label class="control-label col-lg-2" for="title">Title</label>
-                                            <div class="col-lg-10"> 
+                                            <div class="col-lg-10">
                                               <input type="text" class="form-control" id="title">
                                             </div>
-                                          </div>   
+                                          </div>
                                           <!-- Content -->
                                           <div class="form-group">
                                             <label class="control-label col-lg-2" for="content">Write your Review...</label>
                                             <div class="col-lg-10">
                                               <textarea class="form-control" id="content"></textarea>
                                             </div>
-                                          </div>                           
+                                          </div>
                                           <!-- Cateogry -->
                                           <div class="form-group">
                                             <label class="control-label col-lg-2">Satisfaction Level</label>
-                                            <div class="col-lg-10">                               
+                                            <div class="col-lg-10">
                                                 <select class="form-control">
                                                   <option value="">- Choose Option -</option>
                                                   <option value="1">1</option>
@@ -429,23 +441,23 @@
                                                   <option value="3">3</option>
                                                   <option value="4">4</option>
                                                   <option value="5">5</option>
-                                                </select>  
+                                                </select>
                                             </div>
-                                          </div>              
-                                          
-                                          
+                                          </div>
+
+
                                           <!-- Buttons -->
                                           <div class="form-group">
                                              <!-- Buttons -->
                        <div class="col-lg-offset-2 col-lg-9">
                         <button type="submit" class="btn btn-primary">Publish</button>
-                        
+
                         <button type="reset" class="btn btn-default">Reset</button>
                        </div>
                                           </div>
                                       </form>
                                     </div>
-                  
+
 
                   </div>
                   <div class="widget-foot">
@@ -453,22 +465,22 @@
                   </div>
                 </div>
               </div>
-              
+
             </div>
-                        
-          </div> 
+
+          </div>
               <!-- project team & activity end -->
 
           </section>
           <div class="text-right">
           <div class="credits">
-                <!-- 
-                    All the links in the footer should remain intact. 
+                <!--
+                    All the links in the footer should remain intact.
                     You can delete the links only if you purchased the pro version.
                     Licensing information: https://bootstrapmade.com/license/
                     Purchase the pro version form: https://bootstrapmade.com/buy/?theme=NiceAdmin
                 -->
-                
+
             </div>
         </div>
       </section>
@@ -500,7 +512,7 @@
     <!-- custom select -->
     <script src="js/jquery.customSelect.min.js" ></script>
   <script src="assets/chart-master/Chart.js"></script>
-   
+
     <!--custome script for all page-->
     <script src="js/scripts.js"></script>
     <!-- custom script for this page-->
@@ -511,9 +523,9 @@
   <script src="js/xcharts.min.js"></script>
   <script src="js/jquery.autosize.min.js"></script>
   <script src="js/jquery.placeholder.min.js"></script>
-  <script src="js/gdp-data.js"></script>  
+  <script src="js/gdp-data.js"></script>
   <script src="js/morris.min.js"></script>
-  <script src="js/sparklines.js"></script>  
+  <script src="js/sparklines.js"></script>
   <script src="js/charts.js"></script>
   <script src="js/jquery.slimscroll.min.js"></script>
   <script>
@@ -521,7 +533,7 @@
       //knob
       $(function() {
         $(".knob").knob({
-          'draw' : function () { 
+          'draw' : function () {
             $(this.i).val(this.cv + '%')
           }
         })
@@ -543,7 +555,7 @@
       $(function(){
           $('select.styled').customSelect();
       });
-    
+
     /* ---------- Map ---------- */
   $(function(){
     $('#map').vectorMap({
