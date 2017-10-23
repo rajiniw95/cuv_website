@@ -33,8 +33,8 @@ class registerpage_controller extends CI_Controller {
         //Validating email Field
         $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
 
-		//Validating pwd Field      
-		$this->form_validation->set_rules('pwd', 'Password', 'required|min_length[4]|max_length[100]');  
+    //Validating pwd Field      
+    $this->form_validation->set_rules('pwd', 'Password', 'required|min_length[4]|max_length[100]');  
 
 
         if ($this->form_validation->run() == FALSE) {
@@ -42,7 +42,7 @@ class registerpage_controller extends CI_Controller {
         } else {
             //Setting values for tabel columns
             $data = array(
-            	'FirstName' => $this->input->post('fname'),
+              'FirstName' => $this->input->post('fname'),
                 'LastName' => $this->input->post('lname'),
                 'NIC' => $this->input->post('nic'),
                 'Gender' => $this->input->post('Gender'),
@@ -87,4 +87,4 @@ class registerpage_controller extends CI_Controller {
 
 
 
-
+ 

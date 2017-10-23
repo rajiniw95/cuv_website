@@ -54,7 +54,7 @@
             <h1>Registration Successful!</h1>
             
             <br> <br> 
-            <button class="btn btn-primary btn-lg btn-block" type="button">Proceed to Homepage...</button>
+            <button class="btn btn-primary btn-lg btn-block" type="button" onclick="window.location.href='http://localhost/cuv_website/cuv/homepage'">Proceed to Homepage...</button>
             
         </div>
       </form>

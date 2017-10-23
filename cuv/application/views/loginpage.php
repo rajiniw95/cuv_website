@@ -49,7 +49,7 @@
       </header>
       <!--header end-->
 
-      <form class="login-form" action="index.html">        
+      <form class="login-form" action="http://localhost/cuv_website/cuv/homepage">        
         <div class="login-wrap">
             <p class="login-img"><i class="icon_lock_alt"></i></p>
             

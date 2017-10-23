@@ -49,9 +49,12 @@
       </header>
       <!--header end-->
 
-      <form class="reg-form" action="index.html">        
+      
+      <form class="reg-form" action="http://localhost/cuv_website/cuv/rs" method="post">   
+        <?php echo form_open('registerpage_controller'); ?>
         <div class="reg-wrap">
-            <?php echo form_open('registerpage_controller'); ?>
+             
+
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
@@ -120,8 +123,11 @@
             
             <button class="btn btn-primary btn-lg btn-block" type="submit">Let's Register!</font>
             
+            
         </div>
+        <?php echo form_close(); ?>
       </form>
+
 
     <div class="text-right">
             

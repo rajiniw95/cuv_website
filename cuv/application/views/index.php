@@ -79,23 +79,29 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">                
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/register">
                           
                           <span>REGISTER</span>
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/login">
                           
                           <span>LOGIN</span>
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/reviews">
                           
                           <span>CLUB REVIEWS</span>
                       </a>
-                  </li>   
+                  </li> 
+                  <li class="active">
+                      <a class="" href="http://localhost/cuv_website/cuv/contactus">
+                          
+                          <span>CONTACT US</span>
+                      </a>
+                  </li>  
               </ul>
               <!-- sidebar menu end-->
           </div>
@@ -124,7 +130,7 @@
     <div class="container">
         
 
-        <button class="btn btn-primary btn-lg btn-block" type="button">View our Photo Gallery...</button>
+        <button class="btn btn-primary btn-lg btn-block" type="button" onclick="window.location.href='http://localhost/cuv_website/cuv/gallery'">View our Photo Gallery...</button>
         </div>
     </div>
 
@@ -142,7 +148,7 @@
               <i class="fa fa-user fa-stack-1x fa-inverse"></i>
             </span>
             <h3>Register</h3>
-            <p><a class="btn btn-default" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            <p><a class="btn btn-default" href="http://localhost/cuv_website/cuv/register" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
             </p>
           </div>
 
@@ -152,7 +158,7 @@
               <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
             </span>
             <h3>Collaborate</h3>
-            <p><a class="btn btn-default" href="http://www.google.com" target="_blank" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
+            <p><a class="btn btn-default" href="http://localhost/cuv_website/cuv/collaborate" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
           </div>
 
           <div class="col-md-4">
@@ -161,7 +167,7 @@
               <i class="fa fa-money fa-stack-1x fa-inverse"></i>
             </span>
             <h3>Donate</h3>
-            <p><a class="btn btn-default" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
+            <p><a class="btn btn-default" href="http://localhost/cuv_website/cuv/donate" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
           </div>
 
         </div>

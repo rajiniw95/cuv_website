@@ -102,7 +102,7 @@ To make a donation fill in the following form and we would get in touch with you
                                           
                                       </div>
             
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Submit </button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit" onclick="window.location.href='http://localhost/cuv_website/cuv/'">Submit </button>
             
         </div>
       </form>

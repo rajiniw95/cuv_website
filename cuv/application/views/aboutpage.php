@@ -79,25 +79,25 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/about">
 
                           <span>ABOUT CUV</span>
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/gallery">
 
                           <span>GALLERY</span>
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/calendar">
 
                           <span>UPCOMING EVENTS</span>
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/reviews">
 
                           <span>REVIEWS</span>
                       </a>
@@ -109,13 +109,13 @@
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/contactus">
 
                           <span>CONTACT US</span>
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/">
 
                           <span>LOGOUT</span>
                       </a>
@@ -145,10 +145,10 @@
         </div>
 
 
-    <div class="container">
+   <div class="container">
+        
 
-
-        <button class="btn btn-primary btn-lg btn-block" type="button">View our Photo Gallery...</button>
+        <button class="btn btn-primary btn-lg btn-block" type="button" onclick="window.location.href='http://localhost/cuv_website/cuv/gallery'">View our Photo Gallery...</button>
         </div>
     </div>
 
@@ -166,7 +166,7 @@
               <i class="fa fa-user fa-stack-1x fa-inverse"></i>
             </span>
             <h3>Register</h3>
-            <p><a class="btn btn-default" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            <p><a class="btn btn-default" href="http://localhost/cuv_website/cuv/register" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
             </p>
           </div>
 
@@ -176,7 +176,7 @@
               <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
             </span>
             <h3>Collaborate</h3>
-            <p><a class="btn btn-default" href="http://www.google.com" target="_blank" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
+            <p><a class="btn btn-default" href="http://localhost/cuv_website/cuv/collaborate" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
           </div>
 
           <div class="col-md-4">
@@ -185,7 +185,7 @@
               <i class="fa fa-money fa-stack-1x fa-inverse"></i>
             </span>
             <h3>Donate</h3>
-            <p><a class="btn btn-default" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
+            <p><a class="btn btn-default" href="http://localhost/cuv_website/cuv/donate" role="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
           </div>
 
         </div>
@@ -193,7 +193,7 @@
     </div>
                 </div>
             </div>
-
+             
           </section>
       </section>
   </section>
