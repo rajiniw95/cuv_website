@@ -73,43 +73,43 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/about">
 
                           <span>ABOUT CUV</span>
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/gallery">
 
                           <span>GALLERY</span>
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/calendar">
 
                           <span>UPCOMING EVENTS</span>
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/reviews">
 
                           <span>REVIEWS</span>
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/committee">
 
                           <span>COMMITTEE</span>
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/contactus">
 
                           <span>CONTACT US</span>
                       </a>
-                  </li> 
+                  </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/">
 
                           <span>LOGOUT</span>
                       </a>

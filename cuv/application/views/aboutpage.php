@@ -103,7 +103,7 @@
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="http://localhost/cuv_website/cuv/committee">
 
                           <span>COMMITTEE</span>
                       </a>
