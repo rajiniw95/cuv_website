@@ -16,9 +16,9 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="http://localhost/cuv_website/cuv/login">Sign in</a></li>
-					<li><a href="generic.html">Gallery</a></li>
-					<li><a href="elements.html">Club reviews</a></li>
-          <li><a href="generic.html">Contact us</a></li>
+					<li><a href="http://localhost/cuv_website/cuv/gallery">Gallery</a></li>
+					<li><a href="http://localhost/cuv_website/cuv/reviews">Club reviews</a></li>
+          <li><a href="http://localhost/cuv_website/cuv/contactus">Contact us</a></li>
 				</ul>
 			</nav>
 
@@ -29,7 +29,7 @@
 						<h1>Colombo University Volunteers</h1>
 						<p>~ Knowledge Volunteerism ~</p>
 					</header>
-					<a href="#main" class="button big scrolly">Be a Volunteer</a>
+					<a href="http://localhost/cuv_website/cuv/register" class="button big scrolly">Be a Volunteer</a>
 				</div>
 			</section>
 
@@ -166,16 +166,16 @@
 							<div class="flex flex-3">
 								<div class="col align-center">
 									<h2>Join the movement</h2>
-									<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
+									<p>Join a local group of service-minded men and women who are working to strengthen your community </p>
 
 								</div>
 								<div class="col align-center">
 
 
-									<a href="#" class="button">Donate</a>
+									<a href="http://localhost/cuv_website/cuv/donate" class="button">Donate</a>
 								</div>
 								<div class="col align-center">
-									<a href="#" class="button">Collaborate</a>
+									<a href="http://localhost/cuv_website/cuv/collaborate" class="button">Collaborate</a>
 								</div>
 							</div>
 						</div>
