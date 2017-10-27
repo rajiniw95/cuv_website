@@ -35,12 +35,6 @@
   <link href="css/jquery-ui-1.10.4.min.css" rel="stylesheet">
 
   <link href="css/profile_css.css" rel="stylesheet">
-    <!-- =======================================================
-        Theme Name: NiceAdmin
-        Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-        Author: BootstrapMade
-        Author URL: https://bootstrapmade.com
-    ======================================================= -->
   </head>
 
   <body>
@@ -107,7 +101,7 @@
 
                           <span>CONTACT US</span>
                       </a>
-                  </li> 
+                  </li>
                   <li class="active">
                       <a class="" href="index.html">
 
@@ -124,38 +118,92 @@
       <section id="main-content">
           <section class="wrapper">
               <!--overview start-->
+              <div class="container" style="padding-top: 60px;">
+        <h1 class="page-header">Edit Profile</h1>
         <div class="row">
-        <div class="col-lg-12">
-          <h3 class="page-header"><i class="icon_profile"></i> My Profile</h3>
-        </div>
-      </div>
+          <!-- left column -->
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="text-center">
+              <img src="img/committee/K.G.K.Anuradha.jpg" class="avatar img-circle img-thumbnail" alt="avatar">
+              <h6>Upload a different photo...</h6>
+              <input type="file" class="text-center center-block well well-sm">
+            </div>
+          </div>
+          <!-- edit form column -->
+          <div class="col-md-8 col-sm-6 col-xs-12 personal-info">
+            <div class="alert alert-info alert-dismissable">
+              <a class="panel-close close" data-dismiss="alert">×</a>
+              <i class="fa fa-coffee"></i>
+              This is an <strong>.alert</strong>. Your profile examing by CUV admin.
+            </div>
+            <h3>Personal info</h3>
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label class="col-lg-3 control-label">First name:</label>
+                <div class="col-lg-8">
+                  <input class="form-control" value="anush" type="text">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-lg-3 control-label">Last name:</label>
+                <div class="col-lg-8">
+                  <input class="form-control" value="Silva" type="text">
+                </div>
+              </div>
 
-            <div class="row">
+              <div class="form-group">
+                <label class="col-lg-3 control-label">Email:</label>
+                <div class="col-lg-8">
+                  <input class="form-control" value="anush@gmail.com" type="text">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-lg-3 control-label">Faculty</label>
+                <div class="col-lg-8">
+                  <div class="ui-select">
+                    <select id="user_time_zone" class="form-control">
+                      <option value="ucsc"selected="selected">University Of Colombo School Of Computing</option>
+                      <option value="medical">Medical Faculty</option>
+                      <option value="science">Science Faculty</option>
+                      <option value="management">Management Faculty</option>
+                      <option value="law">Law faculty</option>
+                      <option value="art" >Art Faculty</option>
+                      <option value="sriPalee">Sri Palee Campus</option>
 
-
-      </div><!--/.row-->
-      <div class="container">
-      <div class="row">
-
-
-
-       <br>
-      </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
-
-
-          <div class="panel panel-info">
-
-
-
-
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-3 control-label">Username:</label>
+                <div class="col-md-8">
+                  <input class="form-control" value="anush99" type="text">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-3 control-label">Password:</label>
+                <div class="col-md-8">
+                  <input class="form-control" value="11111122333" type="password">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-3 control-label">Confirm password:</label>
+                <div class="col-md-8">
+                  <input class="form-control" value="11111122333" type="password">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-3 control-label"></label>
+                <div class="col-md-8">
+                  <input class="btn btn-primary" value="Save Changes" type="button">
+                  <span></span>
+                  <input class="btn btn-default" value="Cancel" type="reset">
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-    </div>
-
-
-
       <!--main content end-->
             </section>
   <!-- container section start -->
@@ -204,53 +252,7 @@
   <script src="js/sparklines.js"></script>
   <script src="js/charts.js"></script>
   <script src="js/jquery.slimscroll.min.js"></script>
-  <script>
 
-      //knob
-      $(function() {
-        $(".knob").knob({
-          'draw' : function () {
-            $(this.i).val(this.cv + '%')
-          }
-        })
-      });
-
-      //carousel
-      $(document).ready(function() {
-          $("#owl-slider").owlCarousel({
-              navigation : true,
-              slideSpeed : 300,
-              paginationSpeed : 400,
-              singleItem : true
-
-          });
-      });
-
-      //custom select box
-
-      $(function(){
-          $('select.styled').customSelect();
-      });
-
-    /* ---------- Map ---------- */
-  $(function(){
-    $('#map').vectorMap({
-      map: 'world_mill_en',
-      series: {
-        regions: [{
-          values: gdpData,
-          scale: ['#000', '#000'],
-          normalizeFunction: 'polynomial'
-        }]
-      },
-    backgroundColor: '#eef3f7',
-      onLabelShow: function(e, el, code){
-        el.html(el.html()+' (GDP - '+gdpData[code]+')');
-      }
-    });
-  });
-
-  </script>
 
   </body>
 </html>
