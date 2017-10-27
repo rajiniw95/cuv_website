@@ -36,12 +36,8 @@
     <link href="css/style-responsive.css" rel="stylesheet" />
   <link href="css/xcharts.min.css" rel=" stylesheet">
   <link href="css/jquery-ui-1.10.4.min.css" rel="stylesheet">
-    <!-- =======================================================
-        Theme Name: NiceAdmin
-        Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-        Author: BootstrapMade
-        Author URL: https://bootstrapmade.com
-    ======================================================= -->
+  <link rel="stylesheet" href="css/landpage.css" />
+
   </head>
 
   <body>
@@ -49,23 +45,29 @@
   <section id="container" class="">
 
 
+
+
+
       <!--header start-->
       <header class="header dark-bg">
 
 
-            <!--logo start-->
+
+
+
             <a href="index.html" class="logo">Colombo University<span class="lite">Volunteers</span></a>
-            <!--logo end-->
 
-            <div class="nav search-row" id="top_menu">
 
-            </div>
 
-            <div class="top-nav notification-row">
+              <div class="nav search-row" id="top_menu">
 
-            </div>
+              </div>
+
+              <div class="top-nav notification-row">
+
+              </div>
       </header>
-      <!--header end-->
+
 
       <!--sidebar start-->
       <aside>
@@ -185,7 +187,7 @@
                               <div class="col-lg-4">
                                 <span class="profile-ava pull-right">
                                         <img alt="" class="simple" src="img/avatar1_small.jpg">
-                                        Jenifer smith
+                                        Yohani
                                 </span>
                               </div>
                             </div>
@@ -326,8 +328,8 @@
 
                         <div class="chat-content">
                           <!-- In meta area, first include "name" and then "time" -->
-                          <div class="chat-meta">John Smith <span class="pull-right">3 hours ago</span></div>
-                          Vivamus diam elit diam, consectetur dapibus adipiscing elit.
+                          <div class="chat-meta">Arosh <span class="pull-right">3 hours ago</span></div>
+                          Event eka karanna hoda place ekak hoya gaththada?
                           <div class="clearfix"></div>
                         </div>
                       </li>
@@ -341,8 +343,8 @@
 
                         <div class="chat-content">
                           <!-- In the chat meta, first include "time" then "name" -->
-                          <div class="chat-meta">3 hours ago <span class="pull-right">Jenifer Smith</span></div>
-                          Vivamus diam elit diam, consectetur fconsectetur dapibus adipiscing elit.
+                          <div class="chat-meta">3 hours ago <span class="pull-right">Yohani</span></div>
+                          ah.. ow ow. Mama ape faculty eke hall ekak book kla.oya refreshment gena poddak balanawada?
                           <div class="clearfix"></div>
                         </div>
                       </li>
@@ -353,8 +355,8 @@
                         </div>
 
                         <div class="chat-content">
-                          <div class="chat-meta">John Smith <span class="pull-right">4 hours ago</span></div>
-                          Vivamus diam elit diam, consectetur fermentum sed dapibus eget, Vivamus consectetur dapibus adipiscing elit.
+                          <div class="chat-meta">Arosh <span class="pull-right">4 hours ago</span></div>
+                          Api refreshment walata monawada denne?
                           <div class="clearfix"></div>
                         </div>
                       </li>
@@ -367,8 +369,8 @@
 
                         <div class="chat-content">
                           <!-- In the chat meta, first include "time" then "name" -->
-                          <div class="chat-meta">3 hours ago <span class="pull-right">Jenifer Smith</span></div>
-                          Vivamus diam elit diam, consectetur fermentum sed dapibus eget, Vivamus consectetur dapibus adipiscing elit.
+                          <div class="chat-meta">3 hours ago <span class="pull-right">Yohani</span></div>
+                          last meeting ekedi katha kara gatta. mata hariyatama mathaka ne. poddak dilumgen ahanna.
                           <div class="clearfix"></div>
                         </div>
                       </li>
