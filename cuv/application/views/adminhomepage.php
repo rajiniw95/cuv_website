@@ -102,7 +102,7 @@
                           <span>COMMITTEE</span>
                       </a>
                   </li>
-                  
+
                   <li class="active">
                       <a class="" href="http://localhost/cuv_website/cuv/">
 
@@ -180,7 +180,7 @@
                               <div class="col-lg-4">
                                 <span class="profile-ava pull-right">
                                         <img alt="" class="simple" src="img/avatar1_small.jpg">
-                                        Jenifer smith
+                                        Yohani
                                 </span>
                               </div>
                             </div>
@@ -321,8 +321,8 @@
 
                         <div class="chat-content">
                           <!-- In meta area, first include "name" and then "time" -->
-                          <div class="chat-meta">John Smith <span class="pull-right">3 hours ago</span></div>
-                          Vivamus diam elit diam, consectetur dapibus adipiscing elit.
+                          <div class="chat-meta">Arosh <span class="pull-right">3 hours ago</span></div>
+                          Event eka karanna hoda place ekak hoya gaththada?
                           <div class="clearfix"></div>
                         </div>
                       </li>
@@ -336,8 +336,8 @@
 
                         <div class="chat-content">
                           <!-- In the chat meta, first include "time" then "name" -->
-                          <div class="chat-meta">3 hours ago <span class="pull-right">Jenifer Smith</span></div>
-                          Vivamus diam elit diam, consectetur fconsectetur dapibus adipiscing elit.
+                          <div class="chat-meta">3 hours ago <span class="pull-right">Yohani</span></div>
+                          ah.. ow ow. Mama ape faculty eke hall ekak book kla.oya refreshment gena poddak balanawada?
                           <div class="clearfix"></div>
                         </div>
                       </li>
@@ -348,8 +348,8 @@
                         </div>
 
                         <div class="chat-content">
-                          <div class="chat-meta">John Smith <span class="pull-right">4 hours ago</span></div>
-                          Vivamus diam elit diam, consectetur fermentum sed dapibus eget, Vivamus consectetur dapibus adipiscing elit.
+                          <div class="chat-meta">Arosh <span class="pull-right">4 hours ago</span></div>
+                          Api refreshment walata monawada denne?
                           <div class="clearfix"></div>
                         </div>
                       </li>
@@ -362,8 +362,8 @@
 
                         <div class="chat-content">
                           <!-- In the chat meta, first include "time" then "name" -->
-                          <div class="chat-meta">3 hours ago <span class="pull-right">Jenifer Smith</span></div>
-                          Vivamus diam elit diam, consectetur fermentum sed dapibus eget, Vivamus consectetur dapibus adipiscing elit.
+                          <div class="chat-meta">3 hours ago <span class="pull-right">Yohani</span></div>
+                          last meeting ekedi katha kara gatta. mata hariyatama mathaka ne. poddak dilumgen ahanna.
                           <div class="clearfix"></div>
                         </div>
                       </li>
@@ -398,7 +398,7 @@
          <div class="col-md-6 portlets">
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <div class="pull-left">Write Review</div>
+                  <div class="pull-left">Write Post</div>
                   <div class="widget-icons pull-right">
                     <a href="#" class="wminimize"><i class="fa fa-chevron-up"></i></a>
                     <a href="#" class="wclose"><i class="fa fa-times"></i></a>
@@ -409,43 +409,40 @@
                   <div class="padd">
 
                       <div class="form quick-post">
-                                      <!-- Edit profile form (not working)-->
-                                      <form class="form-horizontal">
-                                          <!-- Title -->
+
+                                      <form class="form-horizontal" method="post" action="">
+                                        <?php echo form_open('adminhomepage_controller'); ?>
+
                                           <div class="form-group">
                                             <label class="control-label col-lg-2" for="title">Title</label>
                                             <div class="col-lg-10">
-                                              <input type="text" class="form-control" id="title">
+                                              <input type="text" class="form-control" id="title" name="title">
                                             </div>
                                           </div>
-                                          <!-- Content -->
+
                                           <div class="form-group">
-                                            <label class="control-label col-lg-2" for="content">Write your Review...</label>
+                                            <label class="control-label col-lg-2" for="content">Write your post...</label>
                                             <div class="col-lg-10">
-                                              <textarea class="form-control" id="content"></textarea>
+                                              <textarea class="form-control" name="text" id="content"></textarea>
                                             </div>
                                           </div>
-                                          <!-- Cateogry -->
+
                                           <div class="form-group">
-                                            <label class="control-label col-lg-2">Satisfaction Level</label>
+                                            <label class="control-label col-lg-2" for="content">Add a image</label>
                                             <div class="col-lg-10">
-                                                <select class="form-control">
-                                                  <option value="">- Choose Option -</option>
-                                                  <option value="1">1</option>
-                                                  <option value="2">2</option>
-                                                  <option value="3">3</option>
-                                                  <option value="4">4</option>
-                                                  <option value="5">5</option>
-                                                </select>
+
+                                              <input type="file" name="image" value="Upload a image">
+                                            </div>
+
                                             </div>
                                           </div>
 
 
-                                          <!-- Buttons -->
+
                                           <div class="form-group">
-                                             <!-- Buttons -->
+
                        <div class="col-lg-offset-2 col-lg-9">
-                        <button type="submit" class="btn btn-primary">Publish</button>
+                        <button type="submit" name="upload" class="btn btn-primary">Publish</button>
 
                         <button type="reset" class="btn btn-default">Reset</button>
                        </div>
@@ -470,12 +467,6 @@
           </section>
           <div class="text-right">
           <div class="credits">
-                <!--
-                    All the links in the footer should remain intact.
-                    You can delete the links only if you purchased the pro version.
-                    Licensing information: https://bootstrapmade.com/license/
-                    Purchase the pro version form: https://bootstrapmade.com/buy/?theme=NiceAdmin
-                -->
 
             </div>
         </div>
