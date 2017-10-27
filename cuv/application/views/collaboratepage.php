@@ -49,7 +49,7 @@
       </header>
       <!--header end-->
 
-      <form class="collab-form" action="index.html">        
+      <form class="collab-form" action="<?php echo base_url('collaboratepage_controller/collab_record');?>" method="post">        
         <div class="collab-wrap">
 
             <p><font color="black">
@@ -60,38 +60,38 @@ Let us know why we should collaborate in the following form and we would get in 
             <br>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <input type="text" class="form-control" placeholder="Name" autofocus>
+              <input type="text" class="form-control" name="name" id="name" placeholder="Name" autofocus>
             </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="  icon_pens"></i></span>
-              <input type="text" class="form-control" placeholder="Institution" autofocus>
+              <input type="text" class="form-control" name="institute" id="institute" placeholder="Institution" autofocus>
             </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="  icon_id-2"></i></span>
-              <input type="text" class="form-control" placeholder="Your Role" autofocus>
+              <input type="text" class="form-control" name="role" id="role" placeholder="Your Role" autofocus>
             </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_house_alt"></i></span>
-              <input type="text" class="form-control" placeholder="Address" autofocus>
+              <input type="text" class="form-control" name="address" id="address" placeholder="Address" autofocus>
             </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_phone"></i></span>
-              <input type="text" class="form-control" placeholder="Mobile Number" autofocus>
+              <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile Number" autofocus>
             </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_mail"></i></span>
-              <input type="text" class="form-control" placeholder="E-mail Address" autofocus>
+              <input type="text" class="form-control" name="email" id="email" placeholder="E-mail Address" autofocus>
             </div> <br>
 
             <div class="form-group ">
                                           <label for="ccomment" class="control-label col-lg-12">Explain briefly, the basis of collaboration...</label>
                                           <div class="col-lg-12">
-                                              <textarea class="form-control " id="ccomment" name="comment" required></textarea>
+                                              <textarea class="form-control " id="comment" name="comment" required></textarea>
                                           </div>
                                       </div> <br>
 
@@ -99,20 +99,20 @@ Let us know why we should collaborate in the following form and we would get in 
                                       <label class="control-label col-lg-12" for="inputSuccess"><font color="black">KEEPING IN TOUCH<br> CUV would like to contact you regarding this form. How should we get in touch?</font></label>
                                      
                                           <label class="checkbox">
-                                              <input type="checkbox" id="Checkbox1" value="mail"> <font color="black">Yes. I'd like to hear from you by mail</font>
+                                              <input type="checkbox" id="Checkbox1" name="Checkbox1" value="mail"> <font color="black">Yes. I'd like to hear from you by mail</font>
                                           </label>
 
                                           <label class="checkbox">
-                                              <input type="checkbox" id="Checkbox2" value="phone"> <font color="black">Yes. I'd like to hear from you by phone</font>
+                                              <input type="checkbox" id="Checkbox2" name="Checkbox2" value="phone"> <font color="black">Yes. I'd like to hear from you by phone</font>
                                           </label>
 
                                           <label class="checkbox">
-                                              <input type="checkbox" id="Checkbox3" value="email"><font color="black">Yes. I'd like to hear from you by email</font>
+                                              <input type="checkbox" id="Checkbox3" name="Checkbox3" value="email"><font color="black">Yes. I'd like to hear from you by email</font>
                                           </label>
                                           
                                       </div>
             
-            <button class="btn btn-primary btn-lg btn-block" type="submit" onclick="window.location.href='http://localhost/cuv_website/cuv/'">Submit Request</button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Submit Request</button>
             
         </div>
       </form>

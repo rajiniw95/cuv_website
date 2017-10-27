@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/cuv';
+$config['base_url'] = 'http://localhost/cuv_website/cuv';
 
 /*
 |--------------------------------------------------------------------------
@@ -522,5 +522,3 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
-$config['roles'] = array('subscriber', 'admin');
-$config['status'] = array('pending', 'approved');

@@ -55,11 +55,11 @@
             
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <input type="text" class="form-control" placeholder="Username" autofocus>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Username" autofocus>
             </div>
             <div class="input-group">
                 <span class="input-group-addon"><i class="icon_key_alt"></i></span>
-                <input type="password" class="form-control" placeholder="Password">
+                <input type="password" class="form-control" id="pwd" name="pwd" placeholder="Password">
             </div>
             
             <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>

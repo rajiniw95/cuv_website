@@ -49,7 +49,7 @@
       </header>
       <!--header end-->
 
-      <form class="donate-form" action="index.html">        
+      <form class="donate-form" action="<?php echo base_url('donatepage_controller/donate_record');?>" method="post">        
         <div class="donate-wrap">
 
             <p><font color="black">
@@ -60,28 +60,30 @@ To make a donation fill in the following form and we would get in touch with you
             <br>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <input type="text" class="form-control" placeholder="Name" autofocus>
+              <input type="text" name="name" id="name" class="form-control" placeholder="Name" autofocus>
             </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_house_alt"></i></span>
-              <input type="text" class="form-control" placeholder="Address" autofocus>
+              <input type="text" name="address" id="address" class="form-control" placeholder="Address" autofocus>
             </div>
+
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_phone"></i></span>
-              <input type="text" class="form-control" placeholder="Mobile Number" autofocus>
+              <input type="text" name="mobile" id="mobile" class="form-control" placeholder="Mobile Number" autofocus>
             </div>
+
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_mail"></i></span>
-              <input type="text" class="form-control" placeholder="E-mail Address" autofocus>
+              <input type="text" name="email" id="email" class="form-control" placeholder="E-mail Address" autofocus>
             </div> <br>
 
             <div class="form-group ">
                                           <label for="ccomment" class="control-label col-lg-12">Leave a message...</label>
                                           <div class="col-lg-12">
-                                              <textarea class="form-control " id="ccomment" name="comment" required></textarea>
+                                              <textarea class="form-control " id="comment" name="comment" required></textarea>
                                           </div>
                                       </div> <br>
 
@@ -89,20 +91,20 @@ To make a donation fill in the following form and we would get in touch with you
                                       <label class="control-label col-lg-12" for="inputSuccess"><font color="black">KEEPING IN TOUCH<br> CUV would like to contact you regarding this form. How should we get in touch?</font></label>
                                      
                                           <label class="checkbox">
-                                              <input type="checkbox" id="Checkbox1" value="mail"> <font color="black">Yes. I'd like to hear from you by mail</font>
+                                              <input type="checkbox" id="Checkbox1" name="Checkbox1" value="mail"> <font color="black">Yes. I'd like to hear from you by mail</font>
                                           </label>
 
                                           <label class="checkbox">
-                                              <input type="checkbox" id="Checkbox2" value="phone"> <font color="black">Yes. I'd like to hear from you by phone</font>
+                                              <input type="checkbox" id="Checkbox2" name="Checkbox2" value="phone"> <font color="black">Yes. I'd like to hear from you by phone</font>
                                           </label>
 
                                           <label class="checkbox">
-                                              <input type="checkbox" id="Checkbox3" value="email"><font color="black">Yes. I'd like to hear from you by email</font>
+                                              <input type="checkbox" id="Checkbox3" name="Checkbox3" value="email"><font color="black">Yes. I'd like to hear from you by email</font>
                                           </label>
                                           
                                       </div>
             
-            <button class="btn btn-primary btn-lg btn-block" type="submit" onclick="window.location.href='http://localhost/cuv_website/cuv/'">Submit </button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit" >Submit </button>
             
         </div>
       </form>

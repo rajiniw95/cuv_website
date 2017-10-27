@@ -50,29 +50,27 @@
       <!--header end-->
 
       
-      <form class="reg-form" action="http://localhost/cuv_website/cuv/rs" method="post">   
-        <?php echo form_open('registerpage_controller'); ?>
+      <form class="reg-form" action="<?php echo base_url('registerpage_controller/register_user');?>" method="post">   
+        
         <div class="reg-wrap">
-             
-
 
             <div class="input-group">
-              <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <?php echo form_error('fname'); ?>
-              <input type="text" id="fname" class="form-control" placeholder="First Name" autofocus >
-            </div>
+             <span class="input-group-addon"><i class="icon_profile"></i></span>
+             <input type="text" name="fname" id ="fname" class="form-control" placeholder="First Name" autofocus>
+           </div>
 
-            <div class="input-group">
-              <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <?php echo form_error('lname'); ?>
-              <input type="text" id="lname" class="form-control" placeholder="Last Name" autofocus >
-            </div>
 
-            <div class="input-group">
-              <span class="input-group-addon"><i class="icon_id"></i></span>
-              <?php echo form_error('nic'); ?>
-              <input type="text" id="nic" class="form-control" placeholder="NIC Number" autofocus>
-            </div>
+           <div class="input-group">
+             <span class="input-group-addon"><i class="icon_profile"></i></span>
+             <input type="text" id="lname" name="lname" class="form-control" placeholder="Last Name" autofocus>
+           </div>
+
+
+           <div class="input-group">
+             <span class="input-group-addon"><i class="icon_id"></i></span>
+             <input type="text" id="nic" name="nic" class="form-control" placeholder="NIC Number" autofocus>
+           </div>
+
 
             <div class="input-group">
                                       <label class="control-label col-lg-4" for="inputSuccess">Gender</label>
@@ -85,47 +83,49 @@
                                          </label>
                                          </div> </div>
                
+          
+
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_house_alt"></i></span>
-              <?php echo form_error('address'); ?>
-              <input type="text" id="address" class="form-control" placeholder="Address" autofocus >
+              <input type="text" name="address" id="address" class="form-control" placeholder="Address" autofocus >
             </div>
+
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_phone"></i></span>
-              <?php echo form_error('mobile'); ?>
-              <input type="text" id="mobile" class="form-control" placeholder="Mobile Number" autofocus >
+              <input type="text" name="mobile" id="mobile" class="form-control" placeholder="Mobile Number" autofocus >
             </div>
+
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_mail"></i></span>
-              <?php echo form_error('email'); ?>
-              <input type="text" id="email" class="form-control" placeholder="E-mail Address" autofocus>
+              <input type="text" name="email" id="email" class="form-control" placeholder="E-mail Address" autofocus>
             </div> <br>
+
 
             <div class="input-group">
               <span class="input-group-addon"><i class="  icon_pens"></i></span>
-              <?php echo form_error('faculty'); ?>
-              <input type="text" id="faculty" class="form-control" placeholder="Faculty" autofocus >
+              <input type="text" name="faculty" id="faculty" class="form-control" placeholder="Faculty" autofocus >
             </div>
+
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_genius"></i></span>
-              <?php echo form_error('position'); ?>
-              <input type="text" id="position" class="form-control" placeholder="Position" autofocus >
+              <input type="text" name="position" id="position" class="form-control" placeholder="Position" autofocus >
             </div>
+
 
             <div class="input-group">
                 <span class="input-group-addon"><i class="icon_key_alt"></i></span>
-                <?php echo form_error('pwd'); ?>
-                <input type="password" id="pwd" class="form-control" placeholder="Create Password">
+                <input type="password" name="pwd" id="pwd" class="form-control" placeholder="Create Password">
             </div>
             
+
             <button class="btn btn-primary btn-lg btn-block" type="submit">Let's Register!</font>
             
             
         </div>
-        <?php echo form_close(); ?>
+        
       </form>
 
 

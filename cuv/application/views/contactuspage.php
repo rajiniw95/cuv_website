@@ -49,7 +49,7 @@
       </header>
       <!--header end-->
 
-      <form class="donate-form" action="index.html">        
+      <form class="donate-form" action="<?php echo base_url('contactuspage_controller/contact_record');?>" method="post">        
         <div class="donate-wrap">
 
             <p><font color="black">
@@ -58,23 +58,23 @@
             <br>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <input type="text" class="form-control" placeholder="Name" autofocus>
+              <input type="text" class="form-control" name="name" id="name" placeholder="Name" autofocus>
             </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_phone"></i></span>
-              <input type="text" class="form-control" placeholder="Mobile Number" autofocus>
+              <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile Number" autofocus>
             </div>
 
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_mail"></i></span>
-              <input type="text" class="form-control" placeholder="E-mail Address" autofocus>
+              <input type="text" class="form-control" name="email" id="email" placeholder="E-mail Address" autofocus>
             </div> <br>
 
             <div class="form-group ">
                                           <label for="ccomment" class="control-label col-lg-12">Leave a message...</label>
                                           <div class="col-lg-12">
-                                              <textarea class="form-control " id="ccomment" name="comment" required></textarea>
+                                              <textarea class="form-control " id="comment" name="comment" required></textarea>
                                           </div>
                                       </div> <br>
 
@@ -83,16 +83,16 @@
                                      
                                     
                                           <label class="checkbox">
-                                              <input type="checkbox" id="Checkbox2" value="phone"> <font color="black">Yes. I'd like to hear from you by phone</font>
+                                              <input type="checkbox" id="Checkbox1" name="Checkbox1" value="phone"> <font color="black">Yes. I'd like to hear from you by phone</font>
                                           </label>
 
                                           <label class="checkbox">
-                                              <input type="checkbox" id="Checkbox3" value="email"><font color="black">Yes. I'd like to hear from you by email</font>
+                                              <input type="checkbox" id="Checkbox2" name="Checkbox2" value="email"><font color="black">Yes. I'd like to hear from you by email</font>
                                           </label>
                                           
                                       </div>
             
-            <button class="btn btn-primary btn-lg btn-block" type="submit" onclick="window.location.href='http://localhost/cuv_website/cuv/homepage'">Submit </button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit" >Submit </button>
             
         </div>
       </form>

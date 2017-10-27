@@ -1,5 +1,5 @@
 <?php
-class Registerpage_model extends CI_Model {
+class Donatepage_model extends CI_Model {
 
     function __construct(){
         // Call the Model constructor
@@ -7,8 +7,8 @@ class Registerpage_model extends CI_Model {
 
     }
 
-    function register_user($user){
+    function donate_record($don){
 
-       $this->db->insert('user', $user);
+       $this->db->insert('donate', $don);
     }
 }
