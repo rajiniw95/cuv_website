@@ -75,7 +75,12 @@
                     <div class="profile-widget profile-widget-info">
                           <div class="panel-body">
                             <div class="col-lg-2 col-sm-2">
-                              <h1>EVENT TITLE</h1>
+                              <h1>
+                              <?php foreach ($EVENT as $value) 
+                              {
+                                echo $value->EventTitle;
+                              }?>
+                              </h1>
                             </div>
 
 
@@ -86,7 +91,10 @@
 
                                               <i class="fa fa-check" aria-hidden="true" style="font-size:48px"> </i><br>
 
-                                                                              <button type="button" class="btn btn-success btn-lg" href="" title="Bootstrap 3 themes generator"> &emsp;GOING&emsp;</button>
+                                                                              <button onclick="location.href='http://localhost/cuv_website/cuv/eventpage_controller/going'"type="button" class="btn btn-success btn-lg" href="" title="Bootstrap 3 themes generator" 
+                                                                              <?php if ($GOING=1){ ?> disabled <?php   } ?> 
+                                                                              >  
+                                                                              &emsp;GOING&emsp;</button>
                                           </li>
 
                                       </ul>
@@ -97,7 +105,11 @@
 
                                             <i class="fa fa-times" aria-hidden="true" style="font-size:48px"> </i><br>
 
-                                                    <button type="button" class="btn btn-danger btn-lg" href="" title="Bootstrap 3 themes generator">NOT GOING</button>
+                                                    <button onclick="location.href='http://localhost/cuv_website/cuv/eventpage_controller/notgoing'" type="button" class="btn btn-danger btn-lg" href="" title="Bootstrap 3 themes generator"<?php if ($GOING=0){ 
+                                                      ?> disabled 
+                                                    <?php  } ?>
+                                                    >
+                                                    NOT GOING</button>
 
                                           </li>
 
@@ -123,20 +135,37 @@
                                   <div id="profile" class="tab-pane">
                                       <section class="panel">
                                       <div class="bio-graph-heading">
-                                                  "Event Description"
+                                                  <?php foreach ($EVENT as $value) 
+                                                  {
+                                                    echo $value->Description;
+                                                  }?>
                                       </div>
                                       <div class="panel-body bio-graph-info">
-                                          <h1>Event Details</h1>
+                                          <h1>
+                                            EVENT DETAILS
+                                          </h1>
                                           <div class="row">
 
                                               <div class="bio-row1">
-                                                  <p><span>Date </span>: 27 August 2017</p>
+                                                  <p><span>Date </span>: 
+                                                  <?php foreach ($EVENT as $value) 
+                                                  {
+                                                    echo $value->Date;
+                                                  }?></p>
                                               </div>
                                               <div class="bio-row1">
-                                                  <p><span>Time </span>: 1 p.m.</p>
+                                                  <p><span>Time </span>: 
+                                                  <?php foreach ($EVENT as $value) 
+                                                  {
+                                                    echo $value->Time;
+                                                  }?></p>
                                               </div>
                                               <div class="bio-row1" font size="16">
-                                                  <p><span>Venue </span>: UCSC Benches</p>
+                                                  <p><span>Venue </span>: 
+                                                  <?php foreach ($EVENT as $value) 
+                                                  {
+                                                    echo $value->Venue;
+                                                  }?></p>
                                               </div>
                                               </div>
 
@@ -144,15 +173,20 @@
 
 
                                               <div class="bio-row">
-                                                  <p><span>Organized by </span>: Radeeka Jayamanne</p>
+                                                  <p><span>Organized by </span>: 
+                                                  <?php foreach ($EVENT as $value) 
+                                                  {
+                                                    echo $value->OrganizerName;
+                                                  }?></p>
                                               </div>
                                               <div class="bio-row">
-                                                  <p><span>Organizer Mobile No</span>: 0777333722</p>
+                                                  <p><span>Organizer Mobile No</span>: 
+                                                  <?php foreach ($EVENT as $value) 
+                                                  {
+                                                    echo $value->OrganizerMobile;
+                                                  }?></p>
                                               </div>
-                                              <div class="bio-row">
-                                                  <p><span>Event Type </span>: Enter Type </p>
-                                              </div>
-                                              </div>
+                                              
 
                                           </div>
 
@@ -162,31 +196,22 @@
                                   <table class="table table-striped">
                                 <thead>
                                 <tr>
-                                    <th>#</th>
+                                    
                                     <th>First Name</th>
                                     <th>Last Name</th>
                                     <th>Username</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
+
+                                <?php foreach($PARTICIPANTS as $value){?>
+                                    <tr>
+                                      <td><?=$value->FirstName;?></td>
+                                      <td><?=$value->LastName;?></td>
+                                      <td><?=$value->username;?></td>
+                                    </tr>
+                                  <?php }?>
+                                
                                 </tbody>
                             </table>
                                           </div>
@@ -240,3 +265,4 @@
 
   </body>
 </html>
+

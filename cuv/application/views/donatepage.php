@@ -49,6 +49,9 @@
       </header>
       <!--header end-->
 
+      <!--for checking validation errors-->
+    <?php echo validation_errors(); ?>
+
       <form class="donate-form" action="<?php echo base_url('donatepage_controller/donate_record');?>" method="post">        
         <div class="donate-wrap">
 
