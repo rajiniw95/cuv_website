@@ -3933,3 +3933,20 @@
 	overflow:hidden;
 	padding:20px 0px 0px 0px;
 }
+
+.signIn{
+    height: 20px;
+    width: 70px;
+    position: relative;
+    background-color: #34495e ;
+    color: white;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif,serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 10px;
+    float: right;
+    transform: skewX(-20deg);
+    transition: all 0.3s ease-in-out;
+}

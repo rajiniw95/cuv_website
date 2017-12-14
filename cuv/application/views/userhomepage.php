@@ -49,6 +49,7 @@
 
 
       <!--header start-->
+
       <header class="header dark-bg">
 
 
@@ -56,6 +57,7 @@
 
 
             <a href="index.html" class="logo">Colombo University<span class="lite">Volunteers</span></a>
+            <a class="logout" href="http://localhost/cuv_website/cuv">Log Out</a>
 
 
 
