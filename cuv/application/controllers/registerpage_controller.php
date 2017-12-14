@@ -4,10 +4,17 @@ class registerpage_controller extends CI_Controller {
     public function __construct(){
      
         parent::__construct();
+        $this->load->helper('url');
         $this->load->model('Registerpage_model');
-        
+        $this->load->library('session');
  
         }
+
+    function index(){
+
+        $this->load->view('registerpage');
+
+    }
 
 
     public function register_user(){
@@ -32,86 +39,44 @@ class registerpage_controller extends CI_Controller {
     $this->form_validation->set_rules('pwd', 'Password', 'required|min_length[4]|max_length[30]');
     //Validating re enter password Field
     $this->form_validation->set_rules('conf_pwd', 'Re-enter Password', 'required|matches[pwd]');
+    $this->form_validation->set_rules('username', 'Username', 'required|is_unique[user.username]');
 
-    $this->load->model('database_model'); // to invoke the generateId() method later
 
 
-    if ($this->form_validation->run() == FALSE) {
+    if ($this->form_validation->run() == FALSE) 
+    {
             $this->load->view('registerpage');
         }
-
-    else 
-    {
-        
-        $response = $this->Registerpage_model->insert_user();
-
-        if($response)
-        {
-                //$this->session->set_flashdata('msg','Registered successfully');
-          $this->Queries->register_user();
-                redirect('http://localhost/cuv_website/cuv/rs');
-        }
-        
         else
-        {
-                $this->session->set_flashdata('msg','Something wrong...');
-        }
-    }
-}
+         {
 
-}
-
-        
-
-
-
-
-
-        /*
-          //print_r($user);
- 
-          $this->Registerpage_model->register_user($user);
+        $user=array(
           
-          redirect('http://localhost/cuv_website/cuv/rs');
+          'FirstName'=>$this->input->post('fname'),
+          'LastName'=>$this->input->post('lname'),
+          'NIC'=>$this->input->post('nic'),
+          'Gender'=>$this->input->post('Gender'),
+          'Address'=>$this->input->post('address'),
+          'ContactNo'=>$this->input->post('mobile'),
+          'email' => $this->input->post('email'),
+          'Faculty'=>$this->input->post('faculty'),
+          'Position'=>$this->input->post('position'),
+          'username'=>$this->input->post('username'),
+          //password sha1 encripting
+          'Password'=>sha1($this->input->post('pwd')),
+          'LoginType'=>"user"
+          
+            );
+
+
+          $this->Registerpage_model->insert_user($user);
+          
+          redirect('http://localhost/cuv_website/cuv/');
          
          
         
          
         }
-    
-    function index() {
-    
-    $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
-    
-         if ($this->form_validation->run() == FALSE) {
-             $this->load->view('registerpage');
-         } else {
-          $this->load->model('Registerpage_model');
-             //Setting values for tabel columns
-             $data = array(
-                 'FirstName' => $this->input->post('fname'),
-                 'LastName' => $this->input->post('lname'),
-                 'NIC' => $this->input->post('nic'),
-                 'Email' => $this->input->post('email'),
-                              'Gender'=>$this->input->post('Gender'),
-                              'Address'=>$this->input->post('address'),
-                              'ContactNo'=>$this->input->post('mobile'),
-                              'Faculty'=>$this->input->post('faculty'),
-                              'Position'=>$this->input->post('position'),
-                
-                              'Password'=>$this->input->post('pwd')
-             );
-    //         //Transfering data to Model
-             $this->Registerpage_model->form_insert($data);
-             $data['message'] = 'Data Inserted Successfully';
-    //         //Loading View
-            $this->load->view('registerpage', $data);
-         }
-     }
-    public function index()
-        {
-        $this->load->view("registerpage.php");
-        }
-    
 }
-?>*/
+}
+   
