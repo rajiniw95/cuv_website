@@ -76,6 +76,12 @@
           <div id="sidebar"  class="nav-collapse ">
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">
+                <li class="active">
+                    <a class="" href="http://localhost/cuv_website/cuv/">
+
+                        <span>MY PROFILE</span>
+                    </a>
+                </li>
                   <li class="active">
                       <a class="" href="http://localhost/cuv_website/cuv/about">
 
@@ -112,12 +118,7 @@
                           <span>CONTACT US</span>
                       </a>
                   </li>
-                  <li class="active">
-                      <a class="" href="http://localhost/cuv_website/cuv/">
 
-                          <span>LOGOUT</span>
-                      </a>
-                  </li>
               </ul>
               <!-- sidebar menu end-->
           </div>

@@ -1,0 +1,63 @@
+.username , .usernameInput{
+    width: 360px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0px;
+    //border-radius: 5px;
+    background-color: #3A6D6E;
+}
+
+.username-notify{
+  position: absolute;
+  top: 50px;
+  height: 35px;
+  width:180px;
+  margin-left: -80px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: crimson;
+  z-index: 1
+
+}
+
+.username-notify::after{
+  top: -55%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 151, 167, 0);
+  border-bottom-color:crimson;
+  border-width: 10px;
+  margin-left: -70px;
+  z-index: 1
+}
+
+
+.password-notify{
+  position: absolute;
+  top: 50px;
+  height: 35px;
+  width:180px;
+  margin-left: -80px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  z-index: 1;
+  background: crimson;
+  transition: all .5s  ease-in-out;
+
+}
+.is-active{
+  display: flex;
+   -webkit-animation: note 800ms ease-in-out forwards;
+   -webkit-transform-origin: 35px 0px;
+}
