@@ -27,8 +27,6 @@ class registerpage_controller extends CI_Controller {
     $this->form_validation->set_rules('lname', 'LastName', 'required|min_length[5]|max_length[30]');
     //Validating Mobile no. Field
     $this->form_validation->set_rules('nic', 'NIC No.', 'required|exact_length[10]');
-    //Gender
-    $this->form_validation->set_rules('Gender', 'Gender', 'required');
     //Validating Email Field
     $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
     //Validating Mobile no. Field

@@ -10,8 +10,8 @@ class Eventpage_model extends CI_Model {
 
     //display event details
     function get_event(){
-    	$this->db->select("EventTitle,Time,Date,Venue,Date,Venue,NoParticipants,OrganizerName,OrganizerMobile,EventType,Description");
-    	$query = $this->db->where('EventID', 1);
+    	$this->db->select("EventTitle,Time,Date,Venue,NoParticipants,OrganizerName,OrganizerMobile,Description");
+    	$query = $this->db->where('EventID', 2);
   		$this->db->from('event');
   		$query = $this->db->get();
   		return $query->result();

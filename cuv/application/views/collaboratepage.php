@@ -11,16 +11,16 @@
     <title>CUV|Collaborate</title>
 
     <!-- Bootstrap CSS -->    
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
     <!-- bootstrap theme -->
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/bootstrap-theme.css" rel="stylesheet">
     <!--external css-->
     <!-- font icon -->
-    <link href="css/elegant-icons-style.css" rel="stylesheet" />
-    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>css/font-awesome.css" rel="stylesheet" />
     <!-- Custom styles -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/style-responsive.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
     <!--[if lt IE 9]>
@@ -58,6 +58,8 @@ A partnership between us would mean that we could organize and conduct seminars,
 
 Let us know why we should collaborate in the following form and we would get in touch with you. </font></p>
             <br>
+
+            <?php echo form_error('name'); ?>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
               <input type="text" class="form-control" name="name" id="name" placeholder="Name" autofocus>
@@ -73,21 +75,25 @@ Let us know why we should collaborate in the following form and we would get in 
               <input type="text" class="form-control" name="role" id="role" placeholder="Your Role" autofocus>
             </div>
 
+            <?php echo form_error('address'); ?>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_house_alt"></i></span>
               <input type="text" class="form-control" name="address" id="address" placeholder="Address" autofocus>
             </div>
 
+            <?php echo form_error('mobile'); ?>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_phone"></i></span>
               <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile Number" autofocus>
             </div>
 
+            <?php echo form_error('email'); ?>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_mail"></i></span>
               <input type="text" class="form-control" name="email" id="email" placeholder="E-mail Address" autofocus>
             </div> <br>
 
+            <?php echo form_error('comment'); ?>
             <div class="form-group ">
                                           <label for="ccomment" class="control-label col-lg-12">Explain briefly, the basis of collaboration...</label>
                                           <div class="col-lg-12">

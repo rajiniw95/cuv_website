@@ -11,16 +11,16 @@
     <title>CUV|Donate</title>
 
     <!-- Bootstrap CSS -->    
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
     <!-- bootstrap theme -->
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/bootstrap-theme.css" rel="stylesheet">
     <!--external css-->
     <!-- font icon -->
-    <link href="css/elegant-icons-style.css" rel="stylesheet" />
-    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>css/font-awesome.css" rel="stylesheet" />
     <!-- Custom styles -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/style-responsive.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
     <!--[if lt IE 9]>
@@ -50,7 +50,7 @@
       <!--header end-->
 
       <!--for checking validation errors-->
-    <?php echo validation_errors(); ?>
+    
 
       <form class="donate-form" action="<?php echo base_url('donatepage_controller/donate_record');?>" method="post">        
         <div class="donate-wrap">
@@ -61,28 +61,34 @@ Your donations mean we can continue our life changing campaigns and workshops an
 
 To make a donation fill in the following form and we would get in touch with you. </font></p>
             <br>
+
+            <?php echo form_error('name'); ?>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
               <input type="text" name="name" id="name" class="form-control" placeholder="Name" autofocus>
             </div>
 
+            <?php echo form_error('address'); ?>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_house_alt"></i></span>
               <input type="text" name="address" id="address" class="form-control" placeholder="Address" autofocus>
             </div>
 
 
+            <?php echo form_error('mobile'); ?>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_phone"></i></span>
               <input type="text" name="mobile" id="mobile" class="form-control" placeholder="Mobile Number" autofocus>
             </div>
 
 
+            <?php echo form_error('email'); ?>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_mail"></i></span>
               <input type="text" name="email" id="email" class="form-control" placeholder="E-mail Address" autofocus>
             </div> <br>
 
+            <?php echo form_error('comment'); ?>
             <div class="form-group ">
                                           <label for="ccomment" class="control-label col-lg-12">Leave a message...</label>
                                           <div class="col-lg-12">

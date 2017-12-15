@@ -67,4 +67,5 @@ $route['profile']='profilepage_controller';
 $route['reviews']='reviewpage_controller';
 $route['contactus']='contactuspage_controller';
 $route['committee']='committepage_controller';
+$route['manageevents']='manageeventspage_controller';
 

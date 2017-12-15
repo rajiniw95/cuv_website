@@ -91,6 +91,12 @@
                       </a>
                   </li>
                   <li class="active">
+                      <a class="" href="http://localhost/cuv_website/cuv/manageevents">
+
+                          <span>MANAGE EVENTS</span>
+                      </a>
+                  </li>
+                  <li class="active">
                       <a class="" href="http://localhost/cuv_website/cuv/reviews">
 
                           <span>REVIEWS</span>
@@ -411,7 +417,7 @@
                       <div class="form quick-post">
 
                                       <form class="form-horizontal" method="post" action="">
-                                        <?php echo form_open('adminhomepage_controller'); ?>
+                                        <?php echo form_open('manageeventspage_controller'); ?>
 
                                           <div class="form-group">
                                             <label class="control-label col-lg-2" for="title">Title</label>
@@ -453,6 +459,24 @@
 
 
                   </div>
+
+                  </div>
+
+                  </div>
+
+                  </div>
+
+                 </div>
+                 </section>
+                 </section></section>
+
+</body>
+
+
+
+
+
+
 
                   <div class="widget-foot">
                     <!-- Footer goes here -->
@@ -565,3 +589,4 @@
 
   </body>
 </html>
+

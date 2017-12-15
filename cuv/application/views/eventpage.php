@@ -192,7 +192,7 @@
 
 
                                       <div class="panel-body bio-graph-info">
-                                          <h1> Confrimed Participants </h1>
+                                          <h1> Confirmed Participants </h1>
                                   <table class="table table-striped">
                                 <thead>
                                 <tr>
