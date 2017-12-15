@@ -209,7 +209,6 @@ table tr th { color: #688a7e;}
 }
 
 
-
 .login-form {
 
     max-width: 350px;
@@ -2055,6 +2054,13 @@ ul.sidebar-menu li.active a i {
 
 }
 
+#main-content_upcomingevents_nosidebar {
+
+    margin-left: 0px;
+    background: white;
+
+}
+
 
 #main-content_eventpage_nosidebar {
 
@@ -3274,7 +3280,7 @@ div[data-role="editor-toolbar"] {
 
   padding: 0 15px;
 
-  min-height: 34px;
+  
 
   border-left: 1px solid #ccc;
 

@@ -8,8 +8,6 @@ class Contactuspage_model extends CI_Model {
     }
 
     function contact_record($con){
-
-
        $this->db->insert('contact', $con);
     }
 }

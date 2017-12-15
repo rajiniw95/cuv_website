@@ -22,9 +22,9 @@ class registerpage_controller extends CI_Controller {
 
 
     //Validating FName Field
-    $this->form_validation->set_rules('fname', 'FirstName', 'required|min_length[5]|max_length[30]');
+    $this->form_validation->set_rules('fname', 'FirstName', 'required|max_length[30]');
     //Validating LName Field
-    $this->form_validation->set_rules('lname', 'LastName', 'required|min_length[5]|max_length[30]');
+    $this->form_validation->set_rules('lname', 'LastName', 'required|max_length[30]');
     //Validating Mobile no. Field
     $this->form_validation->set_rules('nic', 'NIC No.', 'required|exact_length[10]');
     //Validating Email Field
@@ -32,7 +32,7 @@ class registerpage_controller extends CI_Controller {
     //Validating Mobile no. Field
     $this->form_validation->set_rules('mobile', 'Mobile No.', 'required|regex_match[/^[0-9]{10}$/]|exact_length[10]');
     //Validating Address Field
-    $this->form_validation->set_rules('address', 'Address', 'required|min_length[10]|max_length[50]');
+    $this->form_validation->set_rules('address', 'Address', 'required|max_length[50]');
     //Validating password Field
     $this->form_validation->set_rules('pwd', 'Password', 'required|min_length[4]|max_length[30]');
     //Validating re enter password Field
@@ -69,7 +69,7 @@ class registerpage_controller extends CI_Controller {
 
           $this->Registerpage_model->insert_user($user);
           
-          redirect('http://localhost/cuv_website/cuv/');
+          redirect('http://localhost/cuv_website/cuv/rs');
          
          
         

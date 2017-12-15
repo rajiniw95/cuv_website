@@ -31,9 +31,10 @@ class contactuspage_controller extends CI_Controller{
 
     if ($this->form_validation->run() == FALSE) 
     {
-            redirect('http://localhost/cuv_website/cuv/contactus');
-            //$this->load->view('contactuspage');
+            $this->load->view('contactuspage');
+            
         }
+
         else
          {
 
@@ -57,7 +58,7 @@ class contactuspage_controller extends CI_Controller{
           redirect('http://localhost/cuv_website/cuv/');
 
           
-         
+        
          
         
          

@@ -32,7 +32,7 @@ class donatepage_controller extends CI_Controller{
 
     if ($this->form_validation->run() == FALSE) 
     {
-            $this->load->view('contactuspage');
+            $this->load->view('donatepage');
         }
         else
          {

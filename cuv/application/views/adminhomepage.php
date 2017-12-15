@@ -85,7 +85,7 @@
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="http://localhost/cuv_website/cuv/calendar">
+                      <a class="" href="http://localhost/cuv_website/cuv/upcomingevents">
 
                           <span>UPCOMING EVENTS</span>
                       </a>
@@ -94,6 +94,13 @@
                       <a class="" href="http://localhost/cuv_website/cuv/manageevents">
 
                           <span>MANAGE EVENTS</span>
+                      </a>
+                  </li>
+
+                  <li class="active">
+                      <a class="" href="http://localhost/cuv_website/cuv/correspondence">
+
+                          <span>MANAGE CORRESPONDENCE</span>
                       </a>
                   </li>
                   <li class="active">

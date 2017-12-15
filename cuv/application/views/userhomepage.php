@@ -77,7 +77,7 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">
                 <li class="active">
-                    <a class="" href="http://localhost/cuv_website/cuv/">
+                    <a class="" href="http://localhost/cuv_website/cuv/profile">
 
                         <span>MY PROFILE</span>
                     </a>
@@ -95,7 +95,7 @@
                       </a>
                   </li>
                   <li class="active">
-                      <a class="" href="http://localhost/cuv_website/cuv/calendar">
+                      <a class="" href="http://localhost/cuv_website/cuv/upcomingevents">
 
                           <span>UPCOMING EVENTS</span>
                       </a>

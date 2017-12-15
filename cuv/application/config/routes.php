@@ -54,7 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['event']='eventpage_controller';
 $route['login']='loginpage_controller';
-$route['calendar']='calendarpage_controller';
+$route['upcomingevents']='upcomingeventspage_controller';
 $route['register']='registerpage_controller';
 $route['rs']='rspage_controller';
 $route['donate']='donatepage_controller';
@@ -69,4 +69,6 @@ $route['reviews']='reviewpage_controller';
 $route['contactus']='contactuspage_controller';
 $route['committee']='committepage_controller';
 $route['manageevents']='manageeventspage_controller';
+$route['correspondence']='correspondencepage_controller';
+
 

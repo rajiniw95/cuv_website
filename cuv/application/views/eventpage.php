@@ -91,9 +91,7 @@
 
                                               <i class="fa fa-check" aria-hidden="true" style="font-size:48px"> </i><br>
 
-                                                                              <button onclick="location.href='http://localhost/cuv_website/cuv/eventpage_controller/going'"type="button" class="btn btn-success btn-lg" href="" title="Bootstrap 3 themes generator" 
-                                                                              <?php if ($GOING=1){ ?> disabled <?php   } ?> 
-                                                                              >  
+                                                                              <button onclick="location.href='http://localhost/cuv_website/cuv/eventpage_controller/going'"type="button" class="btn btn-success btn-lg" href="" title="Bootstrap 3 themes generator"  >  
                                                                               &emsp;GOING&emsp;</button>
                                           </li>
 
@@ -105,9 +103,7 @@
 
                                             <i class="fa fa-times" aria-hidden="true" style="font-size:48px"> </i><br>
 
-                                                    <button onclick="location.href='http://localhost/cuv_website/cuv/eventpage_controller/notgoing'" type="button" class="btn btn-danger btn-lg" href="" title="Bootstrap 3 themes generator"<?php if ($GOING=0){ 
-                                                      ?> disabled 
-                                                    <?php  } ?>
+                                                    <button onclick="location.href='http://localhost/cuv_website/cuv/eventpage_controller/notgoing'" type="button" class="btn btn-danger btn-lg" href="" title="Bootstrap 3 themes generator"
                                                     >
                                                     NOT GOING</button>
 
