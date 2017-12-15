@@ -9,13 +9,13 @@
 	<body>
 			<header id="header" class="alt">
 				<div class="logo"><a href="index.html">Colombo University <span>Volunteers</span></a></div>
+				<a href="http://localhost/cuv_website/cuv/login">Sign In</a>
 				<a href="#menu">Menu</a>
 			</header>
 
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="http://localhost/cuv_website/cuv/login">Sign in</a></li>
 					<li><a href="http://localhost/cuv_website/cuv/gallery">Gallery</a></li>
 					<li><a href="http://localhost/cuv_website/cuv/reviews">Club reviews</a></li>
           <li><a href="http://localhost/cuv_website/cuv/contactus">Contact us</a></li>
