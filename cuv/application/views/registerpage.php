@@ -49,7 +49,9 @@
       </header>
       <!--header end-->
 
-      
+    <!--for checking validation errors-->
+    <?php echo validation_errors(); ?>
+ 
       <form class="reg-form" action="<?php echo base_url('registerpage_controller/register_user');?>" method="post">   
         
         <div class="reg-wrap">
@@ -116,10 +118,20 @@
 
 
             <div class="input-group">
+              <span class="input-group-addon"><i class="icon_genius"></i></span>
+              <input type="text" name="username" id="username" class="form-control" placeholder="Select a Username" autofocus >
+            </div>
+
+
+            <div class="input-group">
                 <span class="input-group-addon"><i class="icon_key_alt"></i></span>
                 <input type="password" name="pwd" id="pwd" class="form-control" placeholder="Create Password">
             </div>
             
+            <div class="input-group">
+                <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+                <input type="password" name="conf_pwd" id="conf_pwd" class="form-control" placeholder="Re-enter Password">
+            </div>
 
             <button class="btn btn-primary btn-lg btn-block" type="submit">Let's Register!</font>
             

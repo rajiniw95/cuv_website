@@ -18,9 +18,28 @@ class contactuspage_controller extends CI_Controller{
     }
 
     public function contact_record(){
+         
 
+    $this->form_validation->set_rules('name', 'Name', 'required|min_length[5]|max_length[50]');
+    
+    $this->form_validation->set_rules('mobile', 'Mobile No.', 'regex_match[/^[0-9]{10}$/]|exact_length[10]');
+    
+    $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
+
+    $this->form_validation->set_rules('comment', 'Comment', 'required');
+
+
+    if ($this->form_validation->run() == FALSE) 
+    {
+            redirect('http://localhost/cuv_website/cuv/contactus');
+            //$this->load->view('contactuspage');
+        }
+        else
+         {
+
+  
         $col=array(
-          
+        
 
           'Name'=>$this->input->post('name'),
           'ContactNo'=>$this->input->post('mobile'),
@@ -36,11 +55,14 @@ class contactuspage_controller extends CI_Controller{
           $this->Contactuspage_model->contact_record($col);
           
           redirect('http://localhost/cuv_website/cuv/');
+
+          
          
          
         
          
         }
+}
 }
 
 

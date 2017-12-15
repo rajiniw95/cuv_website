@@ -8,7 +8,7 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="img/favicon.png">
 
-    <title>CUV|Donate</title>
+    <title>CUV|ContactUs</title>
 
     <!-- Bootstrap CSS -->    
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -48,6 +48,9 @@
             </div>
       </header>
       <!--header end-->
+
+<!--for checking validation errors-->
+    <?php echo validation_errors(); ?>
 
       <form class="donate-form" action="<?php echo base_url('contactuspage_controller/contact_record');?>" method="post">        
         <div class="donate-wrap">

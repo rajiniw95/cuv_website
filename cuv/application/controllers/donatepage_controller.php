@@ -19,6 +19,24 @@ class donatepage_controller extends CI_Controller{
 
     public function donate_record(){
 
+      $this->form_validation->set_rules('name', 'Name', 'required|min_length[5]|max_length[50]');
+
+      $this->form_validation->set_rules('address', 'Address', 'max_length[100]');
+    
+    $this->form_validation->set_rules('mobile', 'Mobile No.', 'regex_match[/^[0-9]{10}$/]|exact_length[10]');
+    
+    $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
+
+    $this->form_validation->set_rules('comment', 'Comment', 'required');
+
+
+    if ($this->form_validation->run() == FALSE) 
+    {
+            $this->load->view('contactuspage');
+        }
+        else
+         {
+
         $don=array(
           
 
@@ -44,7 +62,8 @@ class donatepage_controller extends CI_Controller{
          
         }
 }
+}
 
 
 
-?>
+
