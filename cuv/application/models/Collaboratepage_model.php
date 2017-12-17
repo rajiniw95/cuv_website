@@ -7,8 +7,9 @@ class Collaboratepage_model extends CI_Model {
 
     }
 
-    function collab_record($col){
 
+    // insert record to collab table in database
+    function collab_record($col){
 
        $this->db->insert('collab', $col);
     }

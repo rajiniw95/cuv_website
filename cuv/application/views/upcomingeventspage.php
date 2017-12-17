@@ -109,7 +109,7 @@
                                     <td><?=$value->Time;?></td>
                                     <td><?=$value->Venue;?></td>
                                     
-                                    <td><button onclick="location.href='http://localhost/cuv_website/cuv/eventspage_controller/<?php echo $value->EventID ?>'" type="button" class="btn btn-success btn-lg" href="" title="Bootstrap 3 themes generator"> View Details</button></td>
+                                    <td><button onclick="location.href='<?php echo base_url();?>/eventpage_controller/loadevent/<?php echo $value->EventID ?>'" type="button" class="btn btn-success btn-lg" href="" title="Bootstrap 3 themes generator"> View Details</button></td>
                                   </tr>
                                     <?php }?>
 

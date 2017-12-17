@@ -21,8 +21,10 @@ class manageeventspage_controller extends CI_Controller{
         $this->load->view('manageeventspage',$data);
     }
 
-    //create event
+    //create event in event table 
     public function insert_event(){
+
+        //form validation rules set 
 
     	$this->form_validation->set_rules('title', 'Event Title', 'required');
 
@@ -39,6 +41,7 @@ class manageeventspage_controller extends CI_Controller{
     	$this->form_validation->set_rules('description', 'Event Description', 'required');
 
 
+        //if validation fails reload manageeventspage with existing events under the retreive
     	if ($this->form_validation->run() == FALSE) 
     	{
             $query = $this->Manageeventspage_model->get_events();
@@ -51,6 +54,7 @@ class manageeventspage_controller extends CI_Controller{
             }
 
         else
+            //validation successful. insert data to table. and redirect to same page. 
         {
 
         	$evt=array(
@@ -75,6 +79,7 @@ class manageeventspage_controller extends CI_Controller{
 
 	}
 
+    //delete event from event table in database, given the eventID and redirect to same page
     function deleteEvent($id)
     {
         $query = $this->Manageeventspage_model->delete_event($id);

@@ -9,6 +9,7 @@ class adminhomepage_controller extends CI_Controller{
  
         }
 
+    //load adminhomepage in index function
     function index(){
 
         $this->load->view('adminhomepage');
