@@ -11,16 +11,16 @@
     <title>CUV|Register</title>
 
     <!-- Bootstrap CSS -->    
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
     <!-- bootstrap theme -->
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/bootstrap-theme.css" rel="stylesheet">
     <!--external css-->
     <!-- font icon -->
-    <link href="css/elegant-icons-style.css" rel="stylesheet" />
-    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>css/font-awesome.css" rel="stylesheet" />
     <!-- Custom styles -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/style-responsive.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
     <!--[if lt IE 9]>
@@ -50,29 +50,30 @@
       <!--header end-->
 
     <!--for checking validation errors-->
-    <?php echo validation_errors(); ?>
+    
  
       <form class="reg-form" action="<?php echo base_url('registerpage_controller/register_user');?>" method="post">   
         
         <div class="reg-wrap">
-
+            <?php echo form_error('fname'); ?>
             <div class="input-group">
              <span class="input-group-addon"><i class="icon_profile"></i></span>
              <input type="text" name="fname" id ="fname" class="form-control" placeholder="First Name" autofocus>
            </div>
 
 
+           <?php echo form_error('lname'); ?>
            <div class="input-group">
              <span class="input-group-addon"><i class="icon_profile"></i></span>
              <input type="text" id="lname" name="lname" class="form-control" placeholder="Last Name" autofocus>
            </div>
 
 
+           <?php echo form_error('nic'); ?>
            <div class="input-group">
              <span class="input-group-addon"><i class="icon_id"></i></span>
              <input type="text" id="nic" name="nic" class="form-control" placeholder="NIC Number" autofocus>
            </div>
-
 
             <div class="input-group">
                                       <label class="control-label col-lg-4" for="inputSuccess">Gender</label>
@@ -87,23 +88,25 @@
                
           
 
+            <?php echo form_error('address'); ?>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_house_alt"></i></span>
               <input type="text" name="address" id="address" class="form-control" placeholder="Address" autofocus >
             </div>
 
 
+            <?php echo form_error('mobile'); ?>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_phone"></i></span>
               <input type="text" name="mobile" id="mobile" class="form-control" placeholder="Mobile Number" autofocus >
             </div>
 
 
+            <?php echo form_error('email'); ?>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_mail"></i></span>
               <input type="text" name="email" id="email" class="form-control" placeholder="E-mail Address" autofocus>
             </div> <br>
-
 
             <div class="input-group">
               <span class="input-group-addon"><i class="  icon_pens"></i></span>
@@ -117,17 +120,20 @@
             </div>
 
 
+            <?php echo form_error('username'); ?>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_genius"></i></span>
               <input type="text" name="username" id="username" class="form-control" placeholder="Select a Username" autofocus >
             </div>
 
 
+            <?php echo form_error('pwd'); ?>
             <div class="input-group">
                 <span class="input-group-addon"><i class="icon_key_alt"></i></span>
                 <input type="password" name="pwd" id="pwd" class="form-control" placeholder="Create Password">
             </div>
             
+            <?php echo form_error('conf_pwd'); ?>
             <div class="input-group">
                 <span class="input-group-addon"><i class="icon_key_alt"></i></span>
                 <input type="password" name="conf_pwd" id="conf_pwd" class="form-control" placeholder="Re-enter Password">

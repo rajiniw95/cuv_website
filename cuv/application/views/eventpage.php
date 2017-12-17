@@ -11,16 +11,16 @@
     <title>CUV|Event</title>
 
     <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
     <!-- bootstrap theme -->
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/bootstrap-theme.css" rel="stylesheet">
     <!--external css-->
     <!-- font icon -->
-    <link href="css/elegant-icons-style.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet" />
     <!-- Custom styles -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/style-responsive.css" rel="stylesheet" />
+    <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
     <!--[if lt IE 9]>
@@ -91,9 +91,7 @@
 
                                               <i class="fa fa-check" aria-hidden="true" style="font-size:48px"> </i><br>
 
-                                                                              <button onclick="location.href='http://localhost/cuv_website/cuv/eventpage_controller/going'"type="button" class="btn btn-success btn-lg" href="" title="Bootstrap 3 themes generator" 
-                                                                              <?php if ($GOING=1){ ?> disabled <?php   } ?> 
-                                                                              >  
+                                                                              <button onclick="location.href='<?php echo base_url();?>eventpage_controller/going'"type="button" class="btn btn-success btn-lg" href="" title="Bootstrap 3 themes generator"  >  
                                                                               &emsp;GOING&emsp;</button>
                                           </li>
 
@@ -105,9 +103,7 @@
 
                                             <i class="fa fa-times" aria-hidden="true" style="font-size:48px"> </i><br>
 
-                                                    <button onclick="location.href='http://localhost/cuv_website/cuv/eventpage_controller/notgoing'" type="button" class="btn btn-danger btn-lg" href="" title="Bootstrap 3 themes generator"<?php if ($GOING=0){ 
-                                                      ?> disabled 
-                                                    <?php  } ?>
+                                                    <button onclick="location.href='<?php echo base_url();?>eventpage_controller/notgoing'" type="button" class="btn btn-danger btn-lg" href="" title="Bootstrap 3 themes generator"
                                                     >
                                                     NOT GOING</button>
 
@@ -192,7 +188,7 @@
 
 
                                       <div class="panel-body bio-graph-info">
-                                          <h1> Confrimed Participants </h1>
+                                          <h1> Confirmed Participants </h1>
                                   <table class="table table-striped">
                                 <thead>
                                 <tr>

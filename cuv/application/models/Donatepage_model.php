@@ -7,6 +7,7 @@ class Donatepage_model extends CI_Model {
 
     }
 
+    //insert record to donate table in database
     function donate_record($don){
 
        $this->db->insert('donate', $don);
