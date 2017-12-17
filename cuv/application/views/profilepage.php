@@ -144,13 +144,9 @@
                   <div class="panel panel-default">
                     <div class="userprofile social ">
                       <div class="userpic"> <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" class="userpicimg"> </div>
-                      <h3 class="username">Anush Indrajith</h3>
-                      <p>Nugegoda, Sri lanka</p>
-                      <div class="socials tex-center"> <a href="" class="btn btn-circle btn-primary ">
-                      <i class="fa fa-facebook"></i></a> <a href="" class="btn btn-circle btn-danger ">
-                      <i class="fa fa-google-plus"></i></a> <a href="" class="btn btn-circle btn-info ">
-                      <i class="fa fa-twitter"></i></a> <a href="" class="btn btn-circle btn-warning "><i class="fa fa-envelope"></i></a>
-                      </div>
+                      <h3 class="username"><?php echo $this->session->userdata('FirstName')." ". $this->session->userdata('LastName'); ?></h3>
+                      <p class="username"><?php echo $this->session->userdata('Faculty'); ?></p>
+
                     </div>
 
                     <div class="clearfix"></div>
@@ -161,15 +157,18 @@
                   <div class="panel panel-default">
                     <div class="panel-heading">
                       <h1 class="page-header small">Personal Details</h1>
+                    <a  <button type="button" class="btn btn-info" href="<?php echo base_url('updateprofile_controller/index');?>">Update Profile</button>></a>
 
                     </div>
                     <div class="col-md-12">
                       <ul class="list-group">
-                        <li class="list-group-item"><span class="fa fa-male"></span> Worked with 1000+ people</li>
-                        <li class="list-group-item"><span class="fa fa-envelope-o fa-fw"></span> 60+ offices</li>
-                        <li class="list-group-item"><span class="fa fa-user"></span> 50000+ satify customers</li>
-                        <li class="list-group-item"><span class="fa fa-clock-o"></span> Work hours many and many still counting</li>
-                        <li class="list-group-item"><span class="fa fa-heart"></span> Customer satisfaction for servics</li>
+                        <li class="list-group-item"><span class="fa fa-user"></span> <?php echo "  ".$this->session->userdata('username'); ?></li>
+                        <li class="list-group-item"><span class="fa fa-envelope-o fa-fw"></span> <?php echo "  ".$this->session->userdata('email'); ?></li>
+                        <li class="list-group-item"><span class="fa fa-male"></span><?php echo "  ".$this->session->userdata('Gender'); ?></li>
+
+                        <li class="list-group-item"><span class="fa fa-credit-card"></span><?php echo "  ".$this->session->userdata('NIC'); ?></li>
+                        <li class="list-group-item"><span class="fa fa-phone">   </span><?php echo"  ". $this->session->userdata('ContactNo'); ?></li>
+
                       </ul>
                     </div>
                     <div class="clearfix"></div>
