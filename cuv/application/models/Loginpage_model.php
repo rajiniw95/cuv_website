@@ -2,7 +2,7 @@
 class Loginpage_model extends CI_Model {
 function LoginUser(){
   $username = $this -> input ->post('username');
-  $Password=sha1($this->input->post('pwd')),
+  $Password=sha1($this->input->post('pwd'));
 
   $this -> db -> where ('username',$username);
   $this -> db -> where ('password',$password);
