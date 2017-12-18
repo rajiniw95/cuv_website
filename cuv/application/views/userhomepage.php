@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php
+if (!($this->session->userdata('loggedin'))){
+  redirect('loginpage_controller/index');
+} ?>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -64,8 +69,12 @@
 
             <a href="index.html" class="logo">Colombo University<span class="lite">Volunteers</span></a>
 
-            <a class="logout" href="http://localhost/cuv_website/cuv">Log Out</a>
-            <a class="logout" href="http://localhost/cuv_website/cuv"><?php echo $this->session->userdata('FirstName'); ?></a>
+            <a class="logout" href="<?php echo base_url('Login/LogoutUser'); ?>">Log Out</a>
+
+            <a class="logout" href="http://localhost/cuv_website/cuv/profile"><?php echo $this->session->userdata('FirstName'); ?></a>
+
+
+
 
 
 
@@ -190,28 +199,26 @@
           <div class="col-lg-8">
                       <!--Project Activity start-->
                       <section class="panel">
-                          
-                          
+
+
                       </section>
                       <!--Project Activity end-->
                   </div>
             <div class="col-md-4 portlets">
               <!-- Widget -->
               <div class="panel panel-default">
-        
 
-                
+
+
 
 
               </div>
             </div>
 
 
-              </div><br><br>
+              </div>
 
-    <div class="row">
-
-
+    
          <div class="col-md-6 portlets">
               <div class="panel panel-default">
                 <div class="panel-heading">
