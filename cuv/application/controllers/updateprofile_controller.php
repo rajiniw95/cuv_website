@@ -57,6 +57,7 @@ class updateprofile_controller extends CI_Controller{
 
             );
             $UserID=$this->session->userdata('UserID');
+            $this->session->set_userdata($user);
 
           $this->load->model('Updatepage_model');
           $this->Updatepage_model->update_user($user,$UserID);
@@ -67,5 +68,7 @@ class updateprofile_controller extends CI_Controller{
 
 
         }
+
+
 }
 }

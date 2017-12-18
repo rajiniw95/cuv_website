@@ -61,6 +61,7 @@ $route['donate']='donatepage_controller';
 $route['collaborate']='collaboratepage_controller';
 $route['homepage']='userhomepage_controller';
 $route['gallery']='gallerypage_controller';
+$route['gallery/update']='gallery/update';
 $route['adminhome']='adminhomepage_controller';
 $route['about']='aboutpage_controller';
 $route['profile']='profilepage_controller';
@@ -70,5 +71,3 @@ $route['contactus']='contactuspage_controller';
 $route['committee']='committepage_controller';
 $route['manageevents']='manageeventspage_controller';
 $route['correspondence']='correspondencepage_controller';
-
-

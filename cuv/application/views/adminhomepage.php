@@ -9,6 +9,15 @@
     <link rel="shortcut icon" href="img/favicon.png">
 
     <title>CUV|Homepage</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pdapHxIh7EYuwy6K7iE41uXVxGCXY0sAjBzaElYGJUrzwodck3Lx6IE2lA0rFREo" crossorigin="anonymous">
+    <link href="<?php echo base_url(); ?>css/landpage.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link href="<?php echo base_url(); ?>css/elegant-icons-style.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>css/style-responsive.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>css/widgets.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -184,15 +193,15 @@
           <div class="col-md-8 portlets"> </div>
           <div class="col-lg-8">
                       <!--Project Activity start-->
-                      
+
                   </div>
             <div class="col-md-4 portlets">
               <!-- Widget -->
-              
+
                   <!-- Widget footer -->
                   <div class="widget-foot">
 
-                      
+
 
 
                   </div>
@@ -209,7 +218,7 @@
 
 
          <div class="col-md-6 portlets">
-              
+
 
 
 
@@ -254,6 +263,10 @@
   </section>
   <!-- container section start -->
 
+    <!-- javascripts -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha384-pPttEvTHTuUJ9L2kCoMnNqCRcaMPMVMsWVO+RLaaaYDmfSP5//dP6eKRusbPcqhZ" crossorigin="anonymous"></script>
+<script src="<?php echo base_url(); ?>js/scripts.js"></script>
     <!-- javascripts -->
     <script src="js/jquery.js"></script>
   <script src="js/jquery-ui-1.10.4.min.js"></script>
@@ -344,4 +357,3 @@
 
   </body>
 </html>
-

@@ -106,11 +106,11 @@
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="text-center">
-              <img src="../img/committee/K.G.K.Anuradha.jpg" class="avatar img-circle img-thumbnail" alt="avatar">
+              <img src="<?php echo base_url(); ?>img/<?php echo $this->session->userdata('url'); ?>" class="avatar img-circle img-thumbnail" alt="avatar">
               <h6>Upload a different photo...</h6>
-              
-              <form id="demo-form2" data-parsley-validate enctype="multipart/form-data" class="form-horizontal form-label-left" action="<?php echo base_url() ?>upload/do_upload" method="POST">
 
+            <!--  <form id="demo-form2" data-parsley-validate enctype="multipart/form-data" class="form-horizontal form-label-left" action="<?php echo base_url() ?>upload/do_upload" method="POST"> -->
+               <?=form_open_multipart('gallery/update')?>
 
                   <input type="file" name="userfile" size="20" class="text-center center-block well well-sm" />
 

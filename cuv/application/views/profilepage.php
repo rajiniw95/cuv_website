@@ -103,47 +103,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <div class="container">
           <div class="row">
                 <div class="col-md-12 text-center ">
                   <div class="panel panel-default">
                     <div class="userprofile social ">
-                      <div class="userpic"> <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" class="userpicimg"> </div>
+                      <div class="userpic"> <img src="img/<?php echo $this->session->userdata('url'); ?>" alt="" class="userpicimg"> </div>
                       <h3 class="username"><?php echo $this->session->userdata('FirstName')." ". $this->session->userdata('LastName'); ?></h3>
                       <p class="username"><?php echo $this->session->userdata('Faculty'); ?></p>
 
@@ -157,7 +122,7 @@
                   <div class="panel panel-default">
                     <div class="panel-heading">
                       <h1 class="page-header small">Personal Details</h1>
-                    <a  <button type="button" class="btn btn-info" href="<?php echo base_url('updateprofile_controller/index');?>">Update Profile</button>></a>
+                    <a  <button type="button" class="btn btn-info" href="<?php echo base_url('updateprofile_controller/index');?>">Update Profile</button></a>
 
                     </div>
                     <div class="col-md-12">
